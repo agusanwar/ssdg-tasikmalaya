@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 
 
-const PendaftaranSection =() =>{
+const Index =() =>{
   return (
     <section className="text-white lg:py-16" id="pendaftaran">
       <div className=" items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
@@ -63,4 +63,4 @@ const PendaftaranSection =() =>{
   )
 }
 
-export default PendaftaranSection
+export default Index

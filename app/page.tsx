@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import HeroSection  from './components/HeroSection'
 import PendaftaranSection  from './components/PendaftaranSection'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
           <HeroSection />
           <PendaftaranSection/>
       </div>
+      <Footer />
     </main>
   )
 }
