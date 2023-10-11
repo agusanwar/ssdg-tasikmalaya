@@ -12,7 +12,8 @@ import TableRow from '@mui/material/TableRow';
 
 
 const columns = [
-    { id: 'name', label: 'Name', minWidth: 170 },
+  { id: 'name', label: 'Name', minWidth: 170 },
+  { id: 'apr', label: 'apr', minWidth: 50, align: 'center' },
     { id: 'mei', label: 'mei', minWidth: 50, align: 'center' },
     { id: 'jun', label: 'jun', minWidth: 50, align: 'center' },
     { id: 'jul', label: 'jul', minWidth: 50 , align: 'center'},
@@ -24,7 +25,6 @@ const columns = [
     { id: 'jan', label: 'jan', minWidth: 50, align: 'center' },
     { id: 'feb', label: 'feb', minWidth: 50, align: 'center' },
     { id: 'mar', label: 'mar', minWidth: 50, align: 'center' },
-    { id: 'apr', label: 'apr', minWidth: 50, align: 'center' },
   ];
 
   function createData(name, apr, mei, jun, jul, ags, sep, okt, nov, des, jan, feb, mar) {
