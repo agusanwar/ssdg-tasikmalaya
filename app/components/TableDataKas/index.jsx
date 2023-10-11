@@ -147,7 +147,7 @@ const columns = [
   ];
 
   
-const TableDataKas = () => {
+const Index = () => {
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
 
@@ -213,4 +213,4 @@ const TableDataKas = () => {
 }
 
 
-export default TableDataKas;
+export default Index;
