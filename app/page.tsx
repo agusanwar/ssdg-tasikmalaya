@@ -3,15 +3,17 @@ import HeroSection  from './components/HeroSection'
 import PendaftaranSection  from './components/PendaftaranSection'
 import Footer from './components/Footer'
 
-export default function Home() {
+const Home = () => {
   return (
-    <main className="flex min-h-screen bg-[#121212] flex-col">
+    <div className="bg-[#121212] overflow-hidden">
       <Navbar />
-        <div className="container mt-20 mx-auto px-12 py-4">
+        {/* <div className="container mt-20 mx-auto px-12 py-4"> */}
           <HeroSection />
           <PendaftaranSection/>
-      </div>
+      {/* </div> */}
       <Footer />
-    </main>
+    </div>
   )
 }
+
+export default Home;
