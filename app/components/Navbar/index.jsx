@@ -3,7 +3,6 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import logo from "../../../public/images/logo.png"
 import NavLink  from "./navlink"
 import Menu from "./menu"
 
@@ -34,7 +33,7 @@ const Index = () => {
       <div className="flex justify-between items-center w-full h-full px-10 2xl:px-16">
        <div className="flex items-center w-full h-full px-10 2xl:px-16"> 
        <div className="animate-[wiggle_1s_ease-in-out_infinite]">
-       <Image src={logo} alt="/" width={50} height={50} />
+       <Image src='/images/logo.webp' alt="image hero" width={50} height={50} />
         </div>
         <Link
           href={"/"}
@@ -72,7 +71,6 @@ const Index = () => {
       </div>
       {navbarOpen ? <Menu links={navLinks} /> : null}
     </nav>
-
   );
 };
 

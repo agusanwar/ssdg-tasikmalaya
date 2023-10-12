@@ -32,7 +32,7 @@ const columns = [
   const rows = [
     createData('1', 'Aceng Wiandi', '-','-', '-', '-', '-', '-', '-', '-', '-'),
     createData('2', 'Ade', '-','-', '-', '-', '-', '-', '-', '-','-'),
-    createData('3','Ade Hendra Suhendar', '-','-', '-', '-'),
+    createData('3','Ade Hendra Suhendar', '-','-', '-', '-', '-','-', '-', '-', '-'),
     createData('4','Ade Rohmat Guntara', '-','-', '-', '-', '-', '-', '-', '-','-'),
     createData('5','Adi Darmansyah', '-','-', '-', '-', '-', '-', '-', '-','-'),
     createData('6','Adi Pandu Haryadi', '-','-', '-', '-', '-', '-', '-', '-','-'),
@@ -185,7 +185,7 @@ const Index = () => {
                         const value = row[column.id];
                         return (
                             <TableCell key={column.id} align={column.align}>
-                            {column.format && typeof value === 'number'
+                            {column.format == value && typeof value === 'number'
                                 ? column.format(value)
                                 : value}
                             </TableCell>
