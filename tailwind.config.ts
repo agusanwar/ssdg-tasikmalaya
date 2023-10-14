@@ -8,6 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'tablet': '640px',
+        // => @media (min-width: 640px) { ... }
+  
+        'laptop': '1024px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'desktop': '1280px',
+        // => @media (min-width: 1280px) { ... }
+      },
+      colors: {
+        color: {
+          primary: '#eeeeee',
+          indigo: '#4338ca',
+          secondary: '#393e46',
+          dark: '#222831',
+          yellow: '#d97706'
+        }
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

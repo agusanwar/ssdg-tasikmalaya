@@ -1,65 +1,100 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import KegiatanCard from '../KegiatanCard'
-import {cardsData} from '../../data'
-import FadeIn from '../FadeIn'
 
 
 const Index =() =>{
   return (
-    <section className="text-white lg:py-16 px-5 py-5"  id="kegiatan">
-      <div className=" items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+    <section className="lg:py-5 px-5 py-5"  id="kegiatan">
+      <div className=" items-center justify-center py-8 px-4 xl:gap-8 sm:py-16 xl:px-8">
         <h1 className="text-white text-center text-4xl font-extrabold ">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-200">
             Kegiatan Korwil Tasikmalaya
           </span>
         </h1>
       </div>
-      <div className="md:grid md:grid-cols-3 mt-5 gap-8 items-center py-8 px-4 md:gap-6 ">
-        <Image
-          className="px-4 py-2 rounded-lg scale-60 hover:scale-125 ease-in duration-100"
-          src="/images/kegiatan/archery.webp" 
-          width={500} 
-          height={500} 
-          alt="image oendaftaran"
-        />
-        <Image
-          className="px-4 py-2 rounded-lg scale-60 hover:scale-125 ease-in duration-100"
-          src="/images/kegiatan/ruqiah.webp" 
-          width={500} 
-          height={500} 
-          alt="image oendaftaran"
-        />
-        <Image
-          className="px-4 py-2 rounded-lg scale-60 hover:scale-125 ease-in duration-100"
-          src="/images/kegiatan/maggkotas.webp" 
-          width={500} 
-          height={500} 
-          alt="image oendaftaran"
-        />
-        <Image
-          className="px-4 py-2 rounded-lg scale-60 hover:scale-125 ease-in duration-100"
-          src="/images/kegiatan/silaturahmi.webp" 
-          width={500} 
-          height={500} 
-          alt="image oendaftaran"
-        />
-        <Image
-          className="px-4 py-2 rounded-lg scale-60 hover:scale-125 ease-in duration-100"
-          src="/images/kegiatan/ruqyah.webp" 
-          width={500} 
-          height={500} 
-          alt="image oendaftaran"
-        />
-        <Image
-          className="px-4 py-2 rounded-lg scale-60 hover:scale-125 ease-in duration-100"
-          src="/images/kegiatan/pengajian.webp" 
-          width={500} 
-          height={500} 
-          alt="image oendaftaran"
-        />
-     </div>
+      <div>
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 px-4 ">
+          <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+            <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
+              <Image
+                className="shadow rounded max-w-full h-auto align-middle border-none"
+                src="/images/kegiatan/archery.webp" 
+                width={400} 
+                height={400} 
+                alt="image oendaftaran"
+              />
+              <h3 className='font-bold md:text-xl text:md px-2 py-2'>Tasikmalaya Archery</h3>
+              <h3 className='font-regular md:text-md text:sm px-2 py-2'>Coming Soon</h3>
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+            <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
+              <Image
+                className="shadow rounded max-w-full h-auto align-middle border-none"
+                src="/images/kegiatan/ruqiah.webp" 
+                width={400} 
+                height={400} 
+                alt="image oendaftaran"
+              />
+              <h3 className='font-bold md:text-xl text:md px-2 py-2'>Pelatihan Ruqyah Syar'iyyah</h3>
+              <h3 className='font-regular md:text-md text:sm px-2 py-2'>Jadwal Masih Mobile</h3>
+            </div>
+          </div>   
+          <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+            <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
+              <Image
+                className="shadow rounded max-w-full h-auto align-middle border-none"
+                src="/images/kegiatan/maggkotas.webp" 
+                width={400} 
+                height={400} 
+                alt="image oendaftaran"
+              />
+              <h3 className='font-bold md:text-xl text:md px-2 py-2'>Pelatihan Budidaya Magot</h3>
+              <h3 className='font-regular md:text-md text:sm px-2 py-2'>Coming Soon</h3>
+            </div>
+          </div>
+          <div  className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+            <div class="shadow-lg rounded max-w-full h-auto align-middle border-none">
+              <Image
+                className="shadow rounded max-w-full h-auto align-middle border-none"
+                src="/images/kegiatan/ruqyah.webp" 
+                width={400} 
+                height={400} 
+                alt="image oendaftaran"
+              />
+              <h3 className='font-bold md:text-xl text:md px-2 py-2'>Pengajian Kitab Riyadhus Shalihin</h3>
+              <h3 className='font-regular md:text-md text:sm px-2 py-2'>Coming Soon</h3>
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+            <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
+              <Image
+                className="shadow rounded max-w-full h-auto align-middle border-none"
+                src="/images/kegiatan/silaturahmi.webp" 
+                width={500} 
+                height={500} 
+                alt="image oendaftaran"
+              />
+              <h3 className='font-bold md:text-xl text:md px-2 py-2'>Pengajian Al-Quran dan Makhraj Huruf</h3>
+              <h3 className='font-regular md:text-md text:sm px-2 py-2'>Setiap Jum'at Malam Di Mesjid An-Ni'mah / Rumah Ki-Ohang</h3>
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+            <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
+              <Image
+                className="shadow rounded max-w-full h-auto align-middle border-none"
+                src="/images/kegiatan/pengajian.webp" 
+                width={400} 
+                height={400} 
+                alt="image oendaftaran"
+              />
+              <h3 className='font-bold md:text-xl text:md px-2 py-2'>Pengajian Kitab Riyadhus Shalihin</h3>
+              <h3 className='font-regular md:text-md text:sm px-2 py-2'>Setiap Sabtu Malam Di Mesjid An-Ni'mah / Rumah Ki-Ohang </h3>
+            </div>
+          </div> 
+        </div>
+      </div>
     </section>
   )
 }

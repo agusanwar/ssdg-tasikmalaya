@@ -25,11 +25,11 @@ const navLinks = [
   },
 ];
 
-const Index = () => {
+const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
+    <nav className="w-full fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
       <div className="flex justify-between items-center w-full h-full px-10 2xl:px-16">
        <div className="flex items-center w-full h-full px-10 2xl:px-16"> 
        <div className="animate-[wiggle_1s_ease-in-out_infinite]">
@@ -37,7 +37,7 @@ const Index = () => {
         </div>
         <Link
           href={"/"}
-          className="text-sm md:text-md text-white font-semibold "
+          className="text-sm md:text-md text-white font-semibold hover:text-amber-400"
           >
           SSDG TASIKMALAYA
         </Link>
@@ -46,14 +46,14 @@ const Index = () => {
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-amber-400"
             >
               <Bars3Icon className="h-5 w-5" />
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-amber-400"
             >
               <XMarkIcon className="h-5 w-5" />
             </button>
@@ -74,4 +74,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Navbar;
