@@ -18,16 +18,16 @@ const Index =() =>{
             Mengenai informasi untuk pendaftaran anggota kowril, bisa menghubungi kontak dibawah ini :
           </p>
           <br></br>
-          <div className='flex-col'>
-            <div className='flex-col'>
-            <h3 className="px-6  mt-5 mb-5 py-3 inline-block w-full sm:w-fit rounded mr-4 bg-gradient-to-br from-blue-600 via-blue-200 to-yellow-400 hover:bg-slate-200 text-black">Dika Pratama</h3>
+          <div className='flex-col' >
+            <div className='flex-col '>
+            <h3 className="flex items-center justify-center p-5 bg-gradient-to-br from-blue-600 via-blue-200 to-yellow-400 hover:bg-color-indigo text-black">Dika Pratama</h3>
               <br></br>
               <h3 >Ketua Korwil Tasikmalaya</h3>
               <h3 className='indigo'>+62 819-3050-9090</h3>
             </div>
             <br></br>
             <div className='flex-col'>
-              <h3 className="px-6  mt-5 mb-5 py-3 inline-block w-full sm:w-fit rounded mr-4 bg-gradient-to-br from-blue-600 via-blue-200 to-yellow-400 hover:bg-slate-200 text-black">Yogi A Yogaswara</h3>
+              <h3 className="flex items-center justify-center p-5 bg-gradient-to-br from-blue-600 via-blue-200 to-yellow-400 hover:bg-color-indigo text-black">Yogi A Yogaswara</h3>
               <br></br>
               <h3>Kaderisasi Korwil Tasikmalaya</h3>
               <h3 className='indigo'>+62 853-5399-1777</h3>
@@ -65,7 +65,7 @@ const Index =() =>{
             Membentuk kepribadian muslim yang kuat dalam Iman, Ilmu dan Amal.
             
           </p>
-          <h1 className="text-2xl sm:text-md mb-2 font-extrabold ">
+          <h1 className="text-2xl sm:text-md mt-4 mb-2 font-extrabold ">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-600">
               Misi 
             </span>
