@@ -24,8 +24,8 @@ const Index =() =>{
                 height={400} 
                 alt="image oendaftaran"
               />
-              <h3 className="font-bold md:text-xl text:md px-2 py-2">{`Tasikmalaya Archery`}</h3>
-              <h3 className="font-regular md:text-md text:sm px-2 py-2">{`Coming Soon`}</h3>
+              <h3 className="font-bold md:text-xl text:md px-2 py-2">"Tasikmalaya Archery"</h3>
+              <h3 className="font-regular md:text-md text:sm px-2 py-2">"Coming Soon"</h3>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
@@ -37,8 +37,8 @@ const Index =() =>{
                 height={400} 
                 alt="image oendaftaran"
               />
-              <h3 className="font-bold md:text-xl text:md px-2 py-2">{`Pelatihan Ruqyah Syariyyah`}</h3>
-              <h3 className="font-regular md:text-md text:sm px-2 py-2">{`Jadwal Masih Mobile`}</h3>
+              <h3 className="font-bold md:text-xl text:md px-2 py-2">"Pelatihan Ruqyah Syariyyah"</h3>
+              <h3 className="font-regular md:text-md text:sm px-2 py-2">"Jadwal Masih Mobile"</h3>
             </div>
           </div>   
           <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
@@ -50,8 +50,8 @@ const Index =() =>{
                 height={400} 
                 alt="image oendaftaran"
               />
-              <h3 className="font-bold md:text-xl text:md px-2 py-2">{`Pelatihan Budidaya Magot`}</h3>
-              <h3 className="font-regular md:text-md text:sm px-2 py-2">{`Coming Soon`}</h3>
+              <h3 className="font-bold md:text-xl text:md px-2 py-2">"Pelatihan Budidaya Maggot"</h3>
+              <h3 className="font-regular md:text-md text:sm px-2 py-2">"Coming Soon"</h3>
             </div>
           </div>
           <div  className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
@@ -63,8 +63,8 @@ const Index =() =>{
                 height={400} 
                 alt="image oendaftaran"
               />
-              <h3 className="font-bold md:text-xl text:md px-2 py-2">{`Pengajian Kitab Riyadhus Shalihin`}</h3>
-              <h3 className="font-regular md:text-md text:sm px-2 py-2">{`Coming Soon`}</h3>
+              <h3 className="font-bold md:text-xl text:md px-2 py-2">"Pengajian Kitab Riyadhus Shalihin"</h3>
+              <h3 className="font-regular md:text-md text:sm px-2 py-2">"Coming Soon"</h3>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
@@ -76,8 +76,8 @@ const Index =() =>{
                 height={500} 
                 alt="image oendaftaran"
               />
-              <h3 className="font-bold md:text-xl text:md px-2 py-2">{`Pengajian Al-Quran dan Makhraj Huruf`}</h3>
-              <h3 className="font-regular md:text-md text:sm px-2 py-2">{`Setiap Jumat Malam Di Mesjid An-Nimah / Rumah Ki-Ohang`}</h3>
+              <h3 className="font-bold md:text-xl text:md px-2 py-2">"Pengajian Al Quran dan Makhraj Huruf"</h3>
+              <h3 className="font-regular md:text-md text:sm px-2 py-2">"Setiap Jumat Malam Di Mesjid An Nimah, Rumah Ki Ohang"</h3>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
@@ -89,8 +89,8 @@ const Index =() =>{
                 height={400} 
                 alt="image oendaftaran"
               />
-              <h3 className="font-bold md:text-xl text:md px-2 py-2">{`Pengajian Kitab Riyadhus Shalihin`}</h3>
-              <h3 className="font-regular md:text-md text:sm px-2 py-2">{`Setiap Sabtu Malam Di Mesjid An-Nimah / Rumah Ki-Ohang `}</h3>
+              <h3 className="font-bold md:text-xl text:md px-2 py-2">"Pengajian Kitab Riyadhus Shalihin"</h3>
+              <h3 className="font-regular md:text-md text:sm px-2 py-2">"Setiap Sabtu Malam Di Mesjid An Nimah  Rumah Ki Ohang "</h3>
             </div>
           </div> 
         </div>
