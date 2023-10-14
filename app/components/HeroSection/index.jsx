@@ -41,7 +41,7 @@ const HeroSection = ()=> {
             <div>
               <Link
                 href="/datakas"
-                className="px-4 mt-5 py-3 text-center inline-block w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-700 via-blue-200 to-red-400 hover:bg-slate-200 text-black">
+                className="px-4 mt-5 py-3 text-center inline-block w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-700 via-blue-200 to-red-400 hover:bg-color-yellow text-black">
                   Data Iuran KAS
               </Link>
             </div>

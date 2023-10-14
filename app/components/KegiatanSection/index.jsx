@@ -55,7 +55,7 @@ const Index =() =>{
             </div>
           </div>
           <div  className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
-            <div class="shadow-lg rounded max-w-full h-auto align-middle border-none">
+            <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
               <Image
                 className="shadow rounded max-w-full h-auto align-middle border-none"
                 src="/images/kegiatan/ruqyah.webp" 

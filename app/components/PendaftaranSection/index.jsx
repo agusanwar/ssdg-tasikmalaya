@@ -18,15 +18,15 @@ const Index =() =>{
             Mengenai informasi untuk pendaftaran anggota kowril, bisa menghubungi kontak dibawah ini :
           </p>
           <br></br>
-          <div className='box'>
-            <div className='box'>
+          <div className='flex-col'>
+            <div className='flex-col'>
             <h3 className="px-6  mt-5 mb-5 py-3 inline-block w-full sm:w-fit rounded mr-4 bg-gradient-to-br from-blue-600 via-blue-200 to-yellow-400 hover:bg-slate-200 text-black">Dika Pratama</h3>
               <br></br>
               <h3 >Ketua Korwil Tasikmalaya</h3>
               <h3 className='indigo'>+62 819-3050-9090</h3>
             </div>
             <br></br>
-            <div className='box'>
+            <div className='flex-col'>
               <h3 className="px-6  mt-5 mb-5 py-3 inline-block w-full sm:w-fit rounded mr-4 bg-gradient-to-br from-blue-600 via-blue-200 to-yellow-400 hover:bg-slate-200 text-black">Yogi A Yogaswara</h3>
               <br></br>
               <h3>Kaderisasi Korwil Tasikmalaya</h3>
