@@ -24,8 +24,8 @@ const Index =() =>{
                 height={400} 
                 alt="image oendaftaran"
               />
-              <h3 className="font-bold md:text-xl text:md px-2 py-2">Tasikmalaya Archery</h3>
-              <h3 className="font-regular md:text-md text:sm px-2 py-2">Coming Soon</h3>
+              <h3 className="font-bold md:text-xl text:md px-2 py-2">{`Tasikmalaya Archery`}</h3>
+              <h3 className="font-regular md:text-md text:sm px-2 py-2">{`Coming Soon`}</h3>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
@@ -37,8 +37,8 @@ const Index =() =>{
                 height={400} 
                 alt="image oendaftaran"
               />
-              <h3 className="font-bold md:text-xl text:md px-2 py-2">Pelatihan Ruqyah Syar'iyyah</h3>
-              <h3 className="font-regular md:text-md text:sm px-2 py-2">Jadwal Masih Mobile</h3>
+              <h3 className="font-bold md:text-xl text:md px-2 py-2">{`Pelatihan Ruqyah Syar'iyyah`}</h3>
+              <h3 className="font-regular md:text-md text:sm px-2 py-2">{`Jadwal Masih Mobile`}</h3>
             </div>
           </div>   
           <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
