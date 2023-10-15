@@ -17,7 +17,7 @@ const HerbalSection = () => {
           <div className="rounded max-w-full h-auto justify-center border-none">
             <Image
               className="rounded max-w-full h-auto border-none"
-              src="/images/herbal/detox.webp" 
+              src="/images/herbal/herbal_detox.webp" 
               width={500} 
               height={500} 
               alt="image detok"
@@ -29,7 +29,7 @@ const HerbalSection = () => {
           <div className="rounded max-w-full h-auto justify-centeritems-start border-none">
             <Image
               className="shadow rounded max-w-full h-auto align-middle border-none"
-              src="/images/herbal/bidara.webp" 
+              src="/images/herbal/herbal_bidara.webp" 
               width={500} 
               height={500} 
               alt="image bidara"
@@ -41,7 +41,7 @@ const HerbalSection = () => {
           <div className="rounded max-w-full h-auto justify-centeritems-start border-none">
             <Image
               className="shadow rounded max-w-full h-auto align-middle border-none"
-              src="/images/herbal/susu.webp" 
+              src="/images/herbal/herbal_susu.webp" 
               width={500} 
               height={500} 
               alt="image kopi"
@@ -53,7 +53,7 @@ const HerbalSection = () => {
           <div className="rounded max-w-full h-auto justify-centeritems-start border-none">
             <Image
               className="shadow rounded max-w-full h-auto align-middle border-none"
-              src="/images/herbal/kopi.webp" 
+              src="/images/herbal/herbal_kopi.webp" 
               width={500} 
               height={500} 
               alt="image kopi"
