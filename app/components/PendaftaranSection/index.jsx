@@ -35,7 +35,7 @@ const Index =() =>{
           </div>
         </div>
         <Image
-          className="px-4 py-2 items-center justify-center rounded-l-lg scale-60 hover:scale-125 ease-in duration-100"
+          className="px-4 py-2 items-center justify-center rounded-l-lg transition-all"
           src="/images/img_pendaftaran1.webp" 
           width={500}
           height={500} 
@@ -44,7 +44,7 @@ const Index =() =>{
      </div>
      <div className="md:grid md:grid-cols-2 mt-5 gap-8 items-center py-8 px-4 xl:gap-4 ">
         <Image
-          className="px-4 py-2 items-center justify-center rounded-r-lg scale-60 hover:scale-125 ease-in duration-100"
+          className="px-4 py-2 items-center justify-center rounded-r-lg transition-all"
           src="/images/img_pendaftaran2.webp" 
           width={500} 
           height={500} 

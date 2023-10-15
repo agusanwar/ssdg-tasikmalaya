@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import HeroSection  from './components/HeroSection'
 import PendaftaranSection  from './components/PendaftaranSection'
 import KegiatanSection from './components/KegiatanSection'
+import HerbalSection from './components/HerbalSection'
 import Footer from './components/Footer'
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
           <HeroSection />
           <PendaftaranSection/>
           <KegiatanSection />
+          <HerbalSection />
       {/* </div> */}
       <Footer />
     </div>

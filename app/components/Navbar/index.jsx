@@ -20,6 +20,10 @@ const navLinks = [
     path: "#kegiatan",
   },
   {
+    title: "Product",
+    path: "#herbal",
+  },
+  {
     title: "Team",
     path: "#team",
   },
