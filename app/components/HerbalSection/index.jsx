@@ -20,7 +20,7 @@ const HerbalSection = () => {
               src="/images/herbal/herbal_detox.webp" 
               width={500} 
               height={500} 
-              alt="image oendaftaran"
+              alt="image detok"
             />
             <h3 className="font-bold md:text-xl text:2xl px-2 py-2">SDG DETOX</h3>
           </div>
@@ -32,7 +32,7 @@ const HerbalSection = () => {
               src="/images/herbal/herbal_bidara.webp" 
               width={500} 
               height={500} 
-              alt="image oendaftaran"
+              alt="image bidara"
             />
             <h3 className="font-bold md:text-xl text:2xl px-2 py-2">SDG BIDARA</h3>
           </div>
@@ -44,7 +44,7 @@ const HerbalSection = () => {
               src="/images/herbal/herbal_susu.webp" 
               width={500} 
               height={500} 
-              alt="image oendaftaran"
+              alt="image kopi"
             />
             <h3 className="font-bold md:text-xl text:2xl px-2 py-2">SDG SUSU KAMBING</h3>
           </div>
@@ -56,7 +56,7 @@ const HerbalSection = () => {
               src="/images/herbal/herbal_kopi.webp" 
               width={500} 
               height={500} 
-              alt="image oendaftaran"
+              alt="image kopi"
             />
             <h3 className="font-bold md:text-xl text:2xl px-2 py-2">SDG KOPI HABBAT</h3>
           </div>
