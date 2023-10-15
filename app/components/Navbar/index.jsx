@@ -37,7 +37,13 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-10 2xl:px-16">
        <div className="flex items-center w-full h-full px-10 2xl:px-16"> 
        <div className="animate-[wiggle_1s_ease-in-out_infinite]">
-       <Image src='/images/logo.webp' alt="image hero" width={50} height={50} />
+       <Image 
+          className="shadow rounded max-w-full h-auto align-middle border-none"
+          src='/images/logo.webp' 
+          alt="image hero" 
+          width={50} 
+          height={50} 
+        />
         </div>
         <Link
           href={"/"}

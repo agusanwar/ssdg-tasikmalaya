@@ -18,7 +18,7 @@ const Index =() =>{
           <div className="flex flex-wrap justify-center cursor-pointer text-color-primary hover:text-color-yellow transition-all">
             <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
               <Image
-                className="shadow rounded max-w-full h-auto align-middle border-none"
+                 className="shadow rounded max-w-full h-auto align-middle border-none"
                 src="/images/kegiatan/archery.webp" 
                 width={400} 
                 height={400} 

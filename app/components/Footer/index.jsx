@@ -9,7 +9,7 @@ const Index = () => {
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex md:items-center sm:justify-between">
           <Link href="#" className="flex items-center mb-4 sm:mb-0">
-            <Image src="/images/logo.webp" width={50} height={80} className="h-8 mr-1" alt="ssdg Logo" />
+            <Image src="/images/logo.webp" width={50} height={80}   className="shadow rounded max-w-full h-auto align-middle border-none" alt="ssdg Logo" />
             <h2 className="text-white text-center text-sm font-extrabold ">
               <span className="text-transparent bg-clip-text bg-gradient-to-r text-2xl from-yellow-600 to-color-indigo">
                 SSDG TASIKMALAYA

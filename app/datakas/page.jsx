@@ -15,6 +15,42 @@ const Datakas = () => {
           Data Kas Periode 2023
       </p>
       <TableDataKas/>
+      <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 px-4 mb-10">
+        <div class="max-w-sm mt-10 items-center justify-center overflow-hidden shadow-lg  bg-black rounded-2xl p-4 hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer hover:text-color-yellow transition-al">
+          <Image
+            className="rounded p-4  items-center justify-center max-w-full h-auto border-none"
+            src="/images/bri.webp" 
+            width={200} 
+            height={100} 
+            alt="image detok"
+          />
+          <div className="p-4">
+            <p className="text-gray-700 text-base">
+              Bendahara Korwil Tasikmalaya
+            </p>
+          </div>
+          <div className="px-6 pt-4 pb-2">
+            <span className="block w-full text-center bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Ki Ohang - | SUTRISNO</span>
+          </div>
+        </div>
+        <div class="max-w-sm mt-10 items-center justify-center overflow-hidden shadow-lg  bg-black rounded-2xl p-4 hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer text-color-primary hover:text-color-yellow transition-al">
+          <Image
+            className="rounded p-4 items-center justify-center max-w-full h-auto border-none"
+            src="/images/dana.webp" 
+            width={200} 
+            height={100} 
+            alt="image detok"
+          />
+         <div className="p-4">
+            <p className="text-gray-700 text-base">
+              Ketua Korwil Tasikmalaya
+            </p>
+          </div>
+          <div className="px-6 pt-4 pb-2 ">
+            <span className="block w-full text-center bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">DIKA PRATAMA</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

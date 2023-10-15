@@ -163,7 +163,7 @@ const Index = () => {
         <TableContainer sx={{ maxHeight: 500 }}>
             <Table stickyHeader aria-label="sticky table">
             <TableHead >
-                <TableRow >
+                <TableRow>
                 {columns.map((column) => (
                     <TableCell className="bg-gradient-to-r from-gray-300 to-gray-300 font-extrabold font-3xl"
                     key={column.id}
