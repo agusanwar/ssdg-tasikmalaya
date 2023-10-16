@@ -18,7 +18,7 @@ const Index =() =>{
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
             <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
               <Image
-                className="shadow rounded max-w-full h-auto align-middle border-none"
+                className="shadow rounded w-full h-auto align-middle border-none"
                 src="/images/kegiatan/pengajian-al-quran.webp" 
                 width={400} 
                 height={400} 
@@ -31,7 +31,7 @@ const Index =() =>{
          <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
             <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
               <Image
-                className="shadow rounded max-w-full h-auto align-middle border-none"
+                className="shadow rounded w-full h-auto align-middle border-none"
                 src="/images/kegiatan/pengajian.webp" 
                 width={400} 
                 height={400} 
@@ -44,7 +44,7 @@ const Index =() =>{
          <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
             <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
               <Image
-                className="shadow rounded max-w-full h-auto align-middle border-none"
+                className="shadow rounded w-full h-auto align-middle border-none"
                 src="/images/kegiatan/ruqiah.webp" 
                 width={400} 
                 height={400} 
@@ -57,7 +57,7 @@ const Index =() =>{
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
             <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
               <Image
-                className="shadow rounded max-w-full h-auto align-middle border-none"
+                className="shadow rounded w-full h-auto align-middle border-none"
                 src="/images/kegiatan/silaturahmi.webp" 
                 width={400} 
                 height={400} 
@@ -70,7 +70,7 @@ const Index =() =>{
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
             <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
               <Image
-                className="shadow rounded max-w-full h-auto align-middle border-none"
+                className="shadow rounded w-full h-auto align-middle border-none"
                 src="/images/kegiatan/maggkotas.webp" 
                 width={400} 
                 height={400} 
@@ -83,7 +83,7 @@ const Index =() =>{
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
             <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
               <Image
-                className="shadow rounded max-w-full h-auto align-middle border-none"
+                className="shadow rounded w-full h-auto align-middle border-none"
                 src="/images/kegiatan/archery.webp" 
                 width={400} 
                 height={400} 

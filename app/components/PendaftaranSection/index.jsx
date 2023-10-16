@@ -6,7 +6,7 @@ const Index =() =>{
   return (
     <section className="text-white p-4"  id="pendaftaran">
       <div className="items-center justify-center py-4 px-4 xl:gap-8 sm:py-16 xl:px-16">
-        <h1 className="text-white text-2xl  sm:text-4xl text-center font-extrabold ">
+        <h1 className="text-white text-2xl sm:text-4xl text-center font-extrabold ">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-200">
             Pendaftaran Anggota Korwil Baru
           </span>
@@ -34,22 +34,30 @@ const Index =() =>{
             </div>
           </div>
         </div>
-        <Image
-          className="px-4 py-2 items-center justify-center rounded-l-lg transition-all"
-          src="/images/img_pendaftaran1.webp" 
-          width={500}
-          height={500} 
-          alt="image pendaftaran"
-        />
+        <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl shadow hover:shadow-2xl hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+          <div className="rounded w-full h-auto justify-center border-none">
+            <Image
+              className="px-4 py-4 items-center justify-center rounded-r-lg transition-all"
+              src="/images/img_pendaftaran1.webp" 
+              width={500} 
+              height={500} 
+              alt="image detok"
+            />
+          </div>
+        </div>
      </div>
-     <div className="md:grid md:grid-cols-2 mt-5 gap-8 items-center py-8 px-4 xl:gap-4 ">
-        <Image
-          className="px-4 py-2 items-center justify-center rounded-r-lg transition-all"
-          src="/images/img_pendaftaran2.webp" 
-          width={500} 
-          height={500} 
-          alt="image pendaftaran"
-        />
+     <div className="md:grid md:grid-cols-2 mt-5 gap-8 justify-center items-center py-8 px-4 xl:gap-4 ">
+        <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl shadow hover:shadow-2xl hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+          <div className="rounded w-full h-auto justify-center border-none">
+            <Image
+              className="px-4 py-4 items-center justify-center rounded-r-lg transition-all"
+              src="/images/img_pendaftaran2.webp" 
+              width={500} 
+              height={500} 
+              alt="image detok"
+            />
+          </div>
+        </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">  
           <h2 className="text-4xl mb-5 font-extrabold ">
             <span className="text-transparent mt-10 bg-clip-text bg-gradient-to-r from-red-600 to-yellow-500">
