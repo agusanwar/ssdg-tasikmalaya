@@ -13,7 +13,7 @@ const HerbalSection = () => {
       </div>
 
       <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 px-4">
-        <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+        <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
           <div className="rounded max-w-full h-auto justify-center border-none">
             <Image
               className="rounded max-w-full h-auto border-none"
@@ -25,7 +25,7 @@ const HerbalSection = () => {
             <h3 className="font-bold md:text-xl text:2xl px-2 py-2">SDG DETOX</h3>
           </div>
         </div>
-        <div className="flex flex-wrap justify-centeritems-start bg-black rounded-xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+        <div className="flex flex-wrap justify-centeritems-start bg-black rounded-xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
           <div className="rounded max-w-full h-auto justify-centeritems-start border-none">
             <Image
               className="shadow rounded max-w-full h-auto align-middle border-none"
@@ -37,7 +37,7 @@ const HerbalSection = () => {
             <h3 className="font-bold md:text-xl text:2xl px-2 py-2">SDG BIDARA</h3>
           </div>
         </div>
-        <div className="flex flex-wrap justify-centeritems-start bg-black rounded-xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+        <div className="flex flex-wrap justify-centeritems-start bg-black rounded-xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
           <div className="rounded max-w-full h-auto justify-centeritems-start border-none">
             <Image
               className="shadow rounded max-w-full h-auto align-middle border-none"
@@ -49,7 +49,7 @@ const HerbalSection = () => {
             <h3 className="font-bold md:text-xl text:2xl px-2 py-2">SDG SUSU KAMBING</h3>
           </div>
         </div>
-        <div className="flex flex-wrap justify-centeritems-start bg-black rounded-xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+        <div className="flex flex-wrap justify-centeritems-start bg-black rounded-xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
           <div className="rounded max-w-full h-auto justify-centeritems-start border-none">
             <Image
               className="shadow rounded max-w-full h-auto align-middle border-none"

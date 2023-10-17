@@ -2,7 +2,6 @@
 import React from "react"
 import Image from "next/image"
 
-
 const Index =() =>{
   return (
     <section className="lg:py-5 px-5 py-5"  id="kegiatan">

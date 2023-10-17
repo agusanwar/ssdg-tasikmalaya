@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 
-const Index =() =>{
+const PendaftaranSection =() =>{
   return (
     <section className="text-white p-4"  id="pendaftaran">
       <div className="items-center justify-center py-4 px-4 xl:gap-8 sm:py-16 xl:px-16">
@@ -12,14 +12,14 @@ const Index =() =>{
           </span>
         </h1>
       </div>
-      <div className="grid md:grid-cols-2 gap-4 py-8 px-4 xl:gap-8 ">
+      <div className="grid md:grid-cols-2 gap-10 py-4 px-4 md:gap-20 justify-center items-center">
         <div className="mt-4 md:mt-0 flex flex-col h-full">
           <p className="text-base lg:text-lg">
             Mengenai informasi untuk pendaftaran anggota kowril, bisa menghubungi kontak dibawah ini :
           </p>
           <br></br>
-          <div className='flex-col' >
-            <div className='flex-col '>
+          <div className='flex flex-col'>
+            <div className='flex-col'>
             <h3 className="flex items-center justify-center p-5 bg-gradient-to-br from-blue-600 via-blue-200 to-yellow-400 hover:bg-color-indigo text-black">Dika Pratama</h3>
               <br></br>
               <h3 >Ketua Korwil Tasikmalaya</h3>
@@ -33,22 +33,19 @@ const Index =() =>{
               <h3 className='indigo'>+62 853-5399-1777</h3>
             </div>
           </div>
-        </div>
-        <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl shadow hover:shadow-2xl hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
-          <div className="rounded w-full h-auto justify-center border-none">
-            <Image
-              className="px-4 py-4 items-center justify-center rounded-r-lg transition-all"
-              src="/images/img_pendaftaran1.webp" 
-              width={500} 
-              height={500} 
-              alt="image detok"
-            />
-          </div>
+        </div>   
+        <div className="flex rounded-3xl justify-center items-center w-full h-auto border-none shadow hover:shadow-2xl hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
+          <Image
+             className="px-4 py-4 items-center justify-center rounded-r-lg transition-all"
+            src="/images/img_pendaftaran1.webp" 
+            width={500} 
+            height={500} 
+            alt="image detok"
+          />
         </div>
      </div>
-     <div className="md:grid md:grid-cols-2 mt-5 gap-8 justify-center items-center py-8 px-4 xl:gap-4 ">
-        <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl shadow hover:shadow-2xl hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
-          <div className="rounded w-full h-auto justify-center border-none">
+     <div className="md:grid md:grid-cols-2 gap-10 justify-center items-center py-4 px-4 md:gap-20 ">
+          <div className="flex w-full h-auto justify-center rounded-3xl shadow hover:shadow-2xl hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
             <Image
               className="px-4 py-4 items-center justify-center rounded-r-lg transition-all"
               src="/images/img_pendaftaran2.webp" 
@@ -57,7 +54,6 @@ const Index =() =>{
               alt="image detok"
             />
           </div>
-        </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">  
           <h2 className="text-4xl mb-5 font-extrabold ">
             <span className="text-transparent mt-10 bg-clip-text bg-gradient-to-r from-red-600 to-yellow-500">
@@ -90,4 +86,4 @@ const Index =() =>{
   )
 }
 
-export default Index
+export default PendaftaranSection
