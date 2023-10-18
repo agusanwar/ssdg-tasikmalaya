@@ -21,20 +21,20 @@ const Index =() =>{
                 src="/images/kegiatan/pengajian-al-quran.webp" 
                 width={400} 
                 height={400} 
-                alt="image oendaftaran"
+                alt="image pengajian"
               />
               <h3 className="font-bold md:text-xl text:2xl px-2 py-2">Pengajian Al Quran dan Makhraj Huruf</h3>
               <h4 className="font-regular md:text-md text:sm px-2 py-2">Setiap Jumat Malam Di Mesjid An Nimah, Rumah Ki Ohang</h4>
             </div>
           </div>
-         <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
+          <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
             <div className="shadow-lg rounded max-w-full h-auto align-middle border-none">
               <Image
                 className="shadow rounded w-full h-auto align-middle border-none"
                 src="/images/kegiatan/pengajian.webp" 
                 width={400} 
                 height={400} 
-                alt="image oendaftaran"
+                alt="image pengajian"
               />
               <h3 className="font-bold md:text-xl text:2xl px-2 py-2">Pengajian Kitab Riyadhus Shalihin</h3>
               <h4 className="font-regular md:text-md text:sm px-2 py-2">Setiap Sabtu Malam Di Mesjid An Nimah  Rumah Ki Ohang</h4>
@@ -47,7 +47,7 @@ const Index =() =>{
                 src="/images/kegiatan/ruqiah.webp" 
                 width={400} 
                 height={400} 
-                alt="image oendaftaran"
+                alt="image ruqiah"
               />
               <h3 className="font-bold md:text-xl text:2xl px-2 py-2">Pelatihan Ruqyah Syariyyah</h3>
               <h4 className="font-regular md:text-md text:sm px-2 py-2">Jadwal Masih Mobile</h4>
@@ -60,7 +60,7 @@ const Index =() =>{
                 src="/images/kegiatan/silaturahmi.webp" 
                 width={400} 
                 height={400} 
-                alt="image oendaftaran"
+                alt="image silaturahmi"
               />
               <h3 className="font-bold md:text-xl text:2xl px-2 py-2">Tablig Akbar, Tausyiah, Ruqyah dan Pengobatan</h3>
               <h3 className="font-regular md:text-md text:sm px-2 py-2">Coming Soon</h3>
@@ -73,7 +73,7 @@ const Index =() =>{
                 src="/images/kegiatan/maggkotas.webp" 
                 width={400} 
                 height={400} 
-                alt="image oendaftaran"
+                alt="image maggkotas"
               />
               <h3 className="font-bold md:text-xl text:2xl px-2 py-2">Pelatihan Budidaya Maggot</h3>
               <h4 className="font-regular md:text-md text:sm px-2 py-2">Coming Soon</h4>
@@ -86,7 +86,7 @@ const Index =() =>{
                 src="/images/kegiatan/archery.webp" 
                 width={400} 
                 height={400} 
-                alt="image oendaftaran"
+                alt="image archery"
               />
               <h3 className="font-bold md:text-xl text:2xl px-2 py-2">Tasikmalaya Archery</h3>
               <h4 className="font-regular md:text-md text:sm px-2 py-2">Coming Soon</h4>

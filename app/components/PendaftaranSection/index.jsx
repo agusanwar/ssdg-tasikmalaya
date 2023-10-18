@@ -40,7 +40,7 @@ const PendaftaranSection =() =>{
             src="/images/img_pendaftaran1.webp" 
             width={500} 
             height={500} 
-            alt="image detok"
+            alt="image pendaptaran"
           />
         </div>
      </div>
@@ -51,7 +51,7 @@ const PendaftaranSection =() =>{
               src="/images/img_pendaftaran2.webp" 
               width={500} 
               height={500} 
-              alt="image detok"
+              alt="image our team"
             />
           </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">  

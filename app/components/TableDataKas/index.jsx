@@ -164,9 +164,9 @@ const Index = () => {
             <Table stickyHeader aria-label="sticky table">
             <TableHead >
                 <TableRow>
-                {columns.map((column) => (
+                {columns.map((column, index) => (
                     <TableCell className="bg-gradient-to-r from-gray-300 to-gray-300 font-extrabold font-3xl"
-                    key={column.id}
+                    key={index}
                     align={column.align}
                     style={{ minWidth: column.minWidth }}
                     >
@@ -181,10 +181,10 @@ const Index = () => {
                 .map((row) => {
                     return (
                     <TableRow hover role="checkbox" tabIndex={-1} key={row.code}>
-                        {columns.map((column) => {
+                        {columns.map((column, index) => {
                         const value = row[column.id];
                         return (
-                            <TableCell key={column.id} align={column.align}>
+                            <TableCell key={index} align={column.align}>
                             {column.format == value && typeof value === 'number'
                                 ? column.format(value)
                                 : value}
