@@ -45,8 +45,8 @@ const HeroSection = ()=> {
                   Data Iuran KAS
               </Link>
             </div>
-            <ul className="flex flex-wrap mt-10 text-sm font-medium text-gray-500 dark:text-gray-400">
-            <div className="flex ml-20"> 
+            <ul className="flex flex-nowrap mt-10 text-sm font-medium text-gray-500 dark:text-gray-400">
+            <div className="flex ml-5 "> 
               <Link href="https://www.tiktok.com/@ssdg.tasikmalaya" className="mr-9 text-neutral-800 dark:text-neutral-200  hover:text-color-yellow transition-all">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 

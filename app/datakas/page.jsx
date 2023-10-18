@@ -1,20 +1,27 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
-import TableDataKas from '../components/TableDataKas/index'
+import TableDataKas from '../components/TableDataKas'
+import GridKas from '../components/Grid/'
+
+
 const Datakas = () => {
   return(
-    <div className="col-span-7 ml-5 mr-5 place-self-center text-left  sm:text-left ">       
-      <h1 className="text-white mt-10 mb-4 text-4xl font-extrabold ">
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-yellow-400">
-      SSDG KORWIL TASIKMALAYA
-      </span>
-      <br></br>
-      </h1>
+    <div className="col-span-7 ml-5 mr-5 place-self-center text-left  sm:text-left "> 
+      <Link href="/" className="flex items-center sm:mb-0">
+          <h1 className="text-white mt-10 mb-4 text-4xl font-extrabold ">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-yellow-400">
+            SSDG KORWIL TASIKMALAYA
+          </span>
+          <br></br>
+          </h1>
+      </Link> 
       <p className="text-white mt-5 mb-4 text-2xl font-bold">
           Data Kas Periode 2023
       </p>
-      <TableDataKas/>
+      {/* <TableDataKas/> */}
+      <GridKas />
       <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 px-4 mb-10">
         <div className="max-w-sm mt-10 items-center justify-center overflow-hidden shadow-lg  bg-black rounded-2xl p-4 hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer hover:text-color-yellow transition-al">
           <Image
