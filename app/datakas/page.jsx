@@ -16,7 +16,7 @@ const Datakas = () => {
       </p>
       <TableDataKas/>
       <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 px-4 mb-10">
-        <div class="max-w-sm mt-10 items-center justify-center overflow-hidden shadow-lg  bg-black rounded-2xl p-4 hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer hover:text-color-yellow transition-al">
+        <div className="max-w-sm mt-10 items-center justify-center overflow-hidden shadow-lg  bg-black rounded-2xl p-4 hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer hover:text-color-yellow transition-al">
           <Image
             className="rounded p-4  items-center justify-center max-w-full h-auto border-none"
             src="/images/bri.webp" 
@@ -33,7 +33,7 @@ const Datakas = () => {
             <span className="block w-full text-center bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Ki Ohang - | SUTRISNO</span>
           </div>
         </div>
-        <div class="max-w-sm mt-10 items-center justify-center overflow-hidden shadow-lg  bg-black rounded-2xl p-4 hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer text-color-primary hover:text-color-yellow transition-al">
+        <div className="max-w-sm mt-10 items-center justify-center overflow-hidden shadow-lg  bg-black rounded-2xl p-4 hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer text-color-primary hover:text-color-yellow transition-al">
           <Image
             className="rounded p-4 items-center justify-center max-w-full h-auto border-none"
             src="/images/dana.webp" 

@@ -7,7 +7,7 @@ const HerbalSection = () => {
       <div className=" items-center justify-center py-8 px-4 xl:gap-8 sm:py-16 xl:px-8">
         <h1 className="text-white text-center text-4xl font-extrabold ">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-200">
-            Product Syiar Dalam Gelap
+            Penjualan Product Herbal Syiar Dalam Gelap
           </span>
         </h1>
       </div>
