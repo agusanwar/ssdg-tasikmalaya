@@ -162,8 +162,8 @@ const Index = () => {
         <Paper sx={{ width: '100%', overflow: 'hidden' }}>
         <TableContainer sx={{ maxHeight: 500 }}>
             <Table stickyHeader aria-label="sticky table">
-            <TableHead>
-                <TableRow >
+            <TableHead >
+                <TableRow  >
                 {columns.map((column, i) => (
                     <TableCell className="bg-gradient-to-r from-gray-300 to-gray-300 font-extrabold font-3xl"
                     key={i}
@@ -181,7 +181,7 @@ const Index = () => {
                 .map((row, i) => {
                     return (
                     <TableRow hover role="checkbox" tabIndex={-1} key={i}>
-                        {columns.map((column, imam) => {
+                        {columns.map((column, i) => {
                         const value = row[column.id];
                         return (
                             <TableCell key={i} align={column.align}>
