@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import NavLink  from "./navlink"
 import Menu from "./menu"
+import {motion} from "framer-motion"
 
 const navLinks = [
   {
@@ -45,12 +46,17 @@ const Navbar = () => {
           height={50} 
         />
         </div>
-        <Link
-          href={"/"}
-          className="text-sm md:text-md text-white font-semibold hover:text-amber-400"
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{  scale: 0.9 }}
           >
-          SSDG TASIKMALAYA
-        </Link>
+          <Link
+            href={"/"}
+            className="text-sm md:text-md text-white font-semibold hover:text-amber-400"
+            >
+            SSDG TASIKMALAYA
+          </Link>   
+        </motion.div>
        </div>
          <div className="mobile-menu block md:hidden rounded border-slate-200 hover:text-amber-400">
           {!navbarOpen ? (
@@ -71,7 +77,12 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{  scale: 0.9 }}
+                >
                 <NavLink href={link.path} title={link.title} />
+                </motion.div>
               </li>
             ))}
           </ul>

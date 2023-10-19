@@ -7,7 +7,7 @@ import OurTeamSection from './components/OurTeamSection'
 import Information from './components/Information'
 import Footer from './components/Footer'
 
-const Home = () => {
+const Page = () => {
   return (
     <div className="bg-[#121212] overflow-hidden">
       <Navbar />
@@ -24,4 +24,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Page;

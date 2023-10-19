@@ -24,7 +24,7 @@ const Datakas = () => {
         </p>
       <div className="relative justify-items-center justify-evenly w-full px-4 py-4 mx-auto md:px-12 lg:px-24 max-w-7xl">
         <div className="grid md:grid-cols-2 justify-center text-center items-center sm:grid-cols-1 grid-cols-1 gap-4 px-4">
-          <div className="max-w-sm justify-center text-center items-center overflow-hidden shadow-lg bg-zinc-900 rounded-2xl p-4 hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer hover:text-color-yellow transition-al">
+          <div className="max-w-sm justify-center text-center items-center overflow-hidden shadow-lg bg-zinc-900 rounded-2xl p-4 hover:shadow-2x hover:shadow-amber-700 cursor-pointer hover:text-color-yellow transition-all">
             <Image
               className="p-4 max-w-full h-auto border-none"
               src="/images/bri.webp" 
@@ -44,7 +44,7 @@ const Datakas = () => {
               <span className="block w-full text-center bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-black">Ki Ohang - SUTRISNO</span>
             </div>
           </div>
-          <div className="max-w-sm justify-center text-center items-center overflow-hidden shadow-lg bg-zinc-900 rounded-2xl p-4 hover:shadow-2xl shadow-amber-500 hover:shadow-amber-300 cursor-pointer hover:text-color-yellow transition-al">
+          <div className="max-w-sm justify-center text-center items-center overflow-hidden shadow-lg bg-zinc-900 rounded-2xl p-4 hover:shadow-2x hover:shadow-amber-700 cursor-pointer hover:text-color-yellow transition-all">
             <Image
               className="p-4 max-w-full h-auto border-none"
               src="/images/dana.webp" 
