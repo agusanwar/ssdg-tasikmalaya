@@ -29,13 +29,13 @@ const Footer = () => {
             </h2>
           </Link>
           </motion.div>
-          <ul className="flex flex-wrap justify-center items-center mb-5 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-            <div className="flex mb-15 items-center justify-between"> 
+          <ul className="flex flex-wrap justify-center items-center mb-5">
+            <div className="flex mt-15 items-center justify-between"> 
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{  scale: 0.9 }}
               >
-                <Link href="https://www.tiktok.com/@ssdg.tasikmalaya" className="mr-9 text-neutral-800 dark:text-neutral-200 hover:text-color-yellow transition-all">
+                <Link href="https://www.tiktok.com/@ssdg.tasikmalaya" className="mr-9 mt-4 transition-all flex items-center">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
                   viewBox="0 0 48 48" 
@@ -58,7 +58,7 @@ const Footer = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{  scale: 0.9 }}
               >
-                <Link href="https://web.facebook.com/ssdg.korwiltasikmalaya" className="mr-9 text-neutral-800 dark:text-neutral-200 hover:text-color-yellow transition-all">
+                <Link href="https://web.facebook.com/ssdg.korwiltasikmalaya" className="mr-9 mt-4 flex items-center transition-all">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"  
                   viewBox="0 0 48 48" width="20px" height="20px">
@@ -74,7 +74,7 @@ const Footer = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{  scale: 0.9 }}
               >
-                <Link href="https://www.instagram.com/ssdg.korwiltasikmalaya" className="mr-9 text-neutral-800 dark:text-neutral-200 hover:text-color-yellow transition-all">
+                <Link href="https://www.instagram.com/ssdg.korwiltasikmalaya" className="mr-9 mt-4 flex items-center transition-all">
                   <svg 
                     xmlns="http://www.w3.org/2000/svg"  
                     viewBox="0 0 48 48" width="20px" height="20px">
@@ -99,7 +99,7 @@ const Footer = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{  scale: 0.9 }}
               >
-                <Link href="!#" className="mr-9 text-neutral-800 dark:text-neutral-200 hover:text-color-yellow transition-all">
+                <Link href="!#" className="mt-4 flex items-center transition-all">
                   <svg 
                     xmlns="http://www.w3.org/2000/svg"  
                     viewBox="0 0 48 48" 
@@ -161,7 +161,7 @@ const Footer = () => {
           </ul>
         </div>
         <hr className=" flex my-6 border-gray-200 items-center justify-center sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 SSDGTASIKMALAYA™. All Rights Reserved.</span>
+        <span className="block text-sm text-color-primary sm:text-center">© 2023 SSDGTASIKMALAYA™. All Rights Reserved.</span>
       </div>
     </footer>
   );

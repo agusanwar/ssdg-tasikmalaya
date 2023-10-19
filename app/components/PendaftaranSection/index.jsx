@@ -20,14 +20,14 @@ const PendaftaranSection =() =>{
           <br></br>
           <div className='flex flex-col'>
             <div className='flex-col'>
-            <h3 className="flex items-center justify-center p-5 bg-gradient-to-br from-blue-600 via-blue-200 to-yellow-400 hover:bg-color-indigo text-black">Dika Pratama</h3>
+            <h3 className="flex items-center justify-center p-5 bg-color-indigo text-color-primary rounded-b-2xl">Dika Pratama</h3>
               <br></br>
               <h3 >Ketua Korwil Tasikmalaya</h3>
               <h3 className='indigo'>+62 819-3050-9090</h3>
             </div>
             <br></br>
             <div className='flex-col'>
-              <h3 className="flex items-center justify-center p-5 bg-gradient-to-br from-blue-600 via-blue-200 to-yellow-400 hover:bg-color-indigo text-black">Yogi A Yogaswara</h3>
+              <h3 className="flex items-center justify-center p-5 bg-color-indigo text-color-primary rounded-b-2xl">Yogi A Yogaswara</h3>
               <br></br>
               <h3>Kaderisasi Korwil Tasikmalaya</h3>
               <h3 className='indigo'>+62 853-5399-1777</h3>

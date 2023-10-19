@@ -46,13 +46,13 @@ const HeroSection = ()=> {
                     Data Iuran KAS
                 </Link>
               </div>
-              <ul className="flex flex-nowrap mt-10 text-sm font-medium text-gray-500 dark:text-gray-400">    
+              <ul className="flex flex-nowrap mt-10">    
                 <div className="flex ml-5 "> 
                   <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
                   >
-                    <Link href="https://www.tiktok.com/@ssdg.tasikmalaya" className="mr-9 text-neutral-800 dark:text-neutral-200  hover:text-color-yellow transition-all">
+                    <Link href="https://www.tiktok.com/@ssdg.tasikmalaya" className="mr-9 transition-all">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg" 
                       viewBox="0 0 48 48" 
@@ -75,7 +75,7 @@ const HeroSection = ()=> {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
                   >
-                    <Link href="https://web.facebook.com/ssdg.korwiltasikmalaya" className="mr-9 text-neutral-800 dark:text-neutral-200  hover:text-color-yellow transition-all">
+                    <Link href="https://web.facebook.com/ssdg.korwiltasikmalaya" className="mr-9 transition-all">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"  
                         viewBox="0 0 48 48" width="20px" height="20px">
@@ -91,7 +91,7 @@ const HeroSection = ()=> {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
                   >
-                  <Link href="https://www.instagram.com/ssdg.korwiltasikmalaya" className="mr-9 text-neutral-800 dark:text-neutral-200  hover:text-color-yellow transition-all">
+                  <Link href="https://www.instagram.com/ssdg.korwiltasikmalaya" className="mr-9 transition-all">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg"  
                       viewBox="0 0 48 48" width="20px" height="20px">
@@ -116,7 +116,7 @@ const HeroSection = ()=> {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
                   >
-                  <Link href="" className="text-neutral-800 dark:text-neutral-200 hover:text-color-yellow transition-all">
+                  <Link href="" className="mr-9 transition-all">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg"  
                       viewBox="0 0 48 48" 

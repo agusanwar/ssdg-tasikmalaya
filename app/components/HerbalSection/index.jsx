@@ -22,7 +22,7 @@ const HerbalSection = () => {
               height={500} 
               alt="image detok"
             />
-            <h3 className="font-bold md:text-xl text:2xl px-2 py-2">SDG DETOX</h3>
+            <h3 className="font-2xl md:text-xl text:2xl px-2 py-2">SDG DETOX</h3>
           </div>
         </div>
         <div className="flex flex-wrap justify-centeritems-start bg-black rounded-xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
@@ -34,7 +34,7 @@ const HerbalSection = () => {
               height={500} 
               alt="image bidara"
             />
-            <h3 className="font-bold md:text-xl text:2xl px-2 py-2">SDG BIDARA</h3>
+            <h3 className="font-2xl md:text-xl text:2xl px-2 py-2">SDG BIDARA</h3>
           </div>
         </div>
         <div className="flex flex-wrap justify-centeritems-start bg-black rounded-xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
@@ -46,7 +46,7 @@ const HerbalSection = () => {
               height={500} 
               alt="image kopi"
             />
-            <h3 className="font-bold md:text-xl text:2xl px-2 py-2">SDG SUSU KAMBING</h3>
+            <h3 className="font-2xl md:text-xl text:2xl px-2 py-2">SDG SUSU KAMBING</h3>
           </div>
         </div>
         <div className="flex flex-wrap justify-centeritems-start bg-black rounded-xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
@@ -58,7 +58,7 @@ const HerbalSection = () => {
               height={500} 
               alt="image kopi"
             />
-            <h3 className="font-bold md:text-xl text:2xl px-2 py-2">SDG KOPI HABBAT</h3>
+            <h3 className="font-2xl md:text-xl text:2xl px-2 py-2">SDG KOPI HABBAT</h3>
           </div>
         </div>
       </div>
