@@ -22,7 +22,7 @@ const navLinks = [
   },
   {
     title: "Product",
-    path: "#herbal",
+    path: "#product",
   },
   {
     title: "Team",
