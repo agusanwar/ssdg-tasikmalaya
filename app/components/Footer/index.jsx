@@ -31,29 +31,35 @@ const Footer = () => {
           </motion.div>
           <ul className="flex flex-wrap justify-center items-center mb-5">
             <div className="flex mt-15 items-center justify-between"> 
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                whileTap={{  scale: 0.9 }}
-              >
-                <Link href="https://www.tiktok.com/@ssdg.tasikmalaya" className="mr-9 mt-4 transition-all flex items-center">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  viewBox="0 0 48 48" 
-                  width="20px" 
-                  height="20px"
-                  >
-                  <path fill="#3dd9eb" d="M20,37c2.761,0,5-2.239,5-5v-1v-1V6.07h5.208c-0.031-0.14-0.072-0.276-0.097-0.419H30.11 c-0.044-0.248-0.076-0.495-0.099-0.746V4.07H23V28v1v1c0,2.761-2.239,5-5,5c-0.864,0-1.665-0.239-2.375-0.625 C16.473,35.931,18.103,37,20,37z"/>
-                  <path fill="#f55376" d="M33.718,11.407c-0.797-1.094-1.364-2.367-1.607-3.756H32.11c-0.044-0.248-0.076-0.495-0.099-0.746 V6.07h-1.803C30.699,8.252,31.969,10.132,33.718,11.407z"
-                  />
-                  <path fill="#f55376" d="M18,25c-2.761,0-5,2.239-5,5c0,1.897,1.069,3.527,2.625,4.375C15.239,33.665,15,32.864,15,32 c0-2.761,2.239-5,5-5c0.343,0,0.677,0.035,1,0.101v-7.05C20.669,20.023,20.338,20,20,20s-0.669,0.023-1,0.05v5.05 C18.677,25.035,18.343,25,18,25z"/>
-                  <path fill="#3dd9eb" d="M36.257,13.783c0.867,0.541,1.819,0.908,2.806,1.131v-0.376v-0.002v-1.381 c-1.7,0.003-3.364-0.473-4.806-1.373c-0.186-0.116-0.361-0.247-0.538-0.376C34.406,12.351,35.263,13.163,36.257,13.783z"/>
-                  <path fill="#3dd9eb" d="M19,20.05v-2C18.669,18.023,18.338,18,18,18c-6.627,0-12,5.373-12,12 c0,3.824,1.795,7.222,4.581,9.419C8.969,37.377,8,34.804,8,32C8,25.71,12.842,20.56,19,20.05z"/>
-                  <path fill="#f55376" d="M39.062,14.914v4.733c-3.375,0-6.501-1.071-9.052-2.894L30.013,30l-0.014-0.018 C29.999,29.988,30,29.994,30,30c0,6.627-5.373,12-12,12c-2.804,0-5.377-0.969-7.419-2.581C12.778,42.205,16.176,44,20,44 c6.627,0,12-5.373,12-12c0-0.006-0.001-0.012-0.001-0.018L32.013,32l-0.002-13.248c2.551,1.823,5.677,2.894,9.052,2.894v-5.108 v-0.002v-1.381C40.385,15.157,39.717,15.061,39.062,14.914z"
-                  />
-                  <path fill="#2100c4" d="M30,30c0-0.006-0.001-0.012-0.001-0.018L30.013,30l-0.002-13.248 c2.551,1.823,5.677,2.894,9.052,2.894v-4.733c-0.987-0.223-1.939-0.59-2.806-1.131c-0.994-0.62-1.851-1.432-2.538-2.376 c-1.75-1.275-3.019-3.155-3.51-5.337H25V30v1v1c0,2.761-2.239,5-5,5c-1.897,0-3.527-1.069-4.375-2.625 C14.069,33.527,13,31.897,13,30c0-2.761,2.239-5,5-5c0.343,0,0.677,0.035,1,0.101v-5.05C12.842,20.56,8,25.71,8,32 c0,2.804,0.969,5.377,2.581,7.419C12.623,41.031,15.196,42,18,42C24.627,42,30,36.627,30,30z"/>
-                </svg>
-                </Link>
-              </motion.div>
+              <div className="group relative">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{  scale: 0.9 }}
+                >
+                  <Link href="https://www.tiktok.com/@ssdg.tasikmalaya" className="mr-9 mt-4 transition-all flex items-center">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 48 48" 
+                    width="20px" 
+                    height="20px"
+                    >
+                    <path fill="#3dd9eb" d="M20,37c2.761,0,5-2.239,5-5v-1v-1V6.07h5.208c-0.031-0.14-0.072-0.276-0.097-0.419H30.11 c-0.044-0.248-0.076-0.495-0.099-0.746V4.07H23V28v1v1c0,2.761-2.239,5-5,5c-0.864,0-1.665-0.239-2.375-0.625 C16.473,35.931,18.103,37,20,37z"/>
+                    <path fill="#f55376" d="M33.718,11.407c-0.797-1.094-1.364-2.367-1.607-3.756H32.11c-0.044-0.248-0.076-0.495-0.099-0.746 V6.07h-1.803C30.699,8.252,31.969,10.132,33.718,11.407z"
+                    />
+                    <path fill="#f55376" d="M18,25c-2.761,0-5,2.239-5,5c0,1.897,1.069,3.527,2.625,4.375C15.239,33.665,15,32.864,15,32 c0-2.761,2.239-5,5-5c0.343,0,0.677,0.035,1,0.101v-7.05C20.669,20.023,20.338,20,20,20s-0.669,0.023-1,0.05v5.05 C18.677,25.035,18.343,25,18,25z"/>
+                    <path fill="#3dd9eb" d="M36.257,13.783c0.867,0.541,1.819,0.908,2.806,1.131v-0.376v-0.002v-1.381 c-1.7,0.003-3.364-0.473-4.806-1.373c-0.186-0.116-0.361-0.247-0.538-0.376C34.406,12.351,35.263,13.163,36.257,13.783z"/>
+                    <path fill="#3dd9eb" d="M19,20.05v-2C18.669,18.023,18.338,18,18,18c-6.627,0-12,5.373-12,12 c0,3.824,1.795,7.222,4.581,9.419C8.969,37.377,8,34.804,8,32C8,25.71,12.842,20.56,19,20.05z"/>
+                    <path fill="#f55376" d="M39.062,14.914v4.733c-3.375,0-6.501-1.071-9.052-2.894L30.013,30l-0.014-0.018 C29.999,29.988,30,29.994,30,30c0,6.627-5.373,12-12,12c-2.804,0-5.377-0.969-7.419-2.581C12.778,42.205,16.176,44,20,44 c6.627,0,12-5.373,12-12c0-0.006-0.001-0.012-0.001-0.018L32.013,32l-0.002-13.248c2.551,1.823,5.677,2.894,9.052,2.894v-5.108 v-0.002v-1.381C40.385,15.157,39.717,15.061,39.062,14.914z"
+                    />
+                    <path fill="#2100c4" d="M30,30c0-0.006-0.001-0.012-0.001-0.018L30.013,30l-0.002-13.248 c2.551,1.823,5.677,2.894,9.052,2.894v-4.733c-0.987-0.223-1.939-0.59-2.806-1.131c-0.994-0.62-1.851-1.432-2.538-2.376 c-1.75-1.275-3.019-3.155-3.51-5.337H25V30v1v1c0,2.761-2.239,5-5,5c-1.897,0-3.527-1.069-4.375-2.625 C14.069,33.527,13,31.897,13,30c0-2.761,2.239-5,5-5c0.343,0,0.677,0.035,1,0.101v-5.05C12.842,20.56,8,25.71,8,32 c0,2.804,0.969,5.377,2.581,7.419C12.623,41.031,15.196,42,18,42C24.627,42,30,36.627,30,30z"/>
+                  </svg>
+                  </Link>
+                </motion.div>
+                <span className="group-hover:opacity-100 transition-opacity bg-color-primary px-1 text-sm text-color-indigo rounded-md absolute left-1/2-translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">
+                  Tiktok
+                </span>
+              </div>
+              <div className="group relative">
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{  scale: 0.9 }}
@@ -70,6 +76,11 @@ const Footer = () => {
                 </svg>
                 </Link>
               </motion.div>
+              <span className="group-hover:opacity-100 transition-opacity bg-color-primary px-1 text-sm text-color-indigo rounded-md absolute left-1/2-translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">
+                Facebook
+              </span>
+              </div>
+              <div className="group relative">
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{  scale: 0.9 }}
@@ -95,68 +106,77 @@ const Footer = () => {
                 </svg>
                 </Link>
               </motion.div>
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                whileTap={{  scale: 0.9 }}
-              >
-                <Link href="!#" className="mt-4 flex items-center transition-all">
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg"  
-                    viewBox="0 0 48 48" 
-                    width="20px" 
-                    height="20px" 
-                    baseProfile="basic"
-                    >
-                    <linearGradient 
-                      id="AraffhWwwEqZfgFEBZFoqa" 
-                      x1="18.102" 
-                      x2="25.297" 
-                      y1="3.244" 
-                      y2="34.74" 
-                      gradientUnits="userSpaceOnUse"
-                    >
-                    <stop offset="0" stopColor="#35ab4a"/>
-                    <stop offset=".297" stopColor="#31a145"/>
-                    <stop offset=".798" stopColor="#288739"/>
-                    <stop offset="1" stopColor="#237a33"/>
-                    </linearGradient>
-                    <path 
-                      fill="url(#AraffhWwwEqZfgFEBZFoqa)" 
-                      d="M13.488,4.012C10.794,2.508,7.605,3.778,6.45,6.323L24.126,24l9.014-9.014L13.488,4.012z"
-                    />
-                    <linearGradient 
-                      id="AraffhWwwEqZfgFEBZFoqb" x1="19.158" x2="21.194" y1="23.862" y2="66.931" 
-                      gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#f14e5d"
-                      />
-                      <stop offset=".499" stopColor="#ea3d4f"/>
-                      <stop offset="1" stopColor="#e12138"/>
-                    </linearGradient>
+              <span className="group-hover:opacity-100 transition-opacity bg-color-primary px-1 text-sm text-color-indigo rounded-md absolute left-1/2-translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">
+                Instagram
+              </span>
+              </div>
+              <div className="group relative">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{  scale: 0.9 }}
+                >
+                  <Link href="/" className="mt-4 flex items-center transition-all">
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg"  
+                      viewBox="0 0 48 48" 
+                      width="20px" 
+                      height="20px" 
+                      baseProfile="basic"
+                      >
+                      <linearGradient 
+                        id="AraffhWwwEqZfgFEBZFoqa" 
+                        x1="18.102" 
+                        x2="25.297" 
+                        y1="3.244" 
+                        y2="34.74" 
+                        gradientUnits="userSpaceOnUse"
+                      >
+                      <stop offset="0" stopColor="#35ab4a"/>
+                      <stop offset=".297" stopColor="#31a145"/>
+                      <stop offset=".798" stopColor="#288739"/>
+                      <stop offset="1" stopColor="#237a33"/>
+                      </linearGradient>
                       <path 
-                        fill="url(#AraffhWwwEqZfgFEBZFoqb)" 
-                        d="M33.14,33.014L24.126,24L6.45,41.677 c1.156,2.546,4.345,3.815,7.038,2.312L33.14,33.014z"/>
-                    <linearGradient 
-                      id="AraffhWwwEqZfgFEBZFoqc" x1="32.943" x2="36.541" y1="14.899" y2="43.612" 
-                      gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#ffd844"
+                        fill="url(#AraffhWwwEqZfgFEBZFoqa)" 
+                        d="M13.488,4.012C10.794,2.508,7.605,3.778,6.45,6.323L24.126,24l9.014-9.014L13.488,4.012z"
                       />
-                      <stop offset=".519" stopColor="#ffc63f"/>
-                      <stop offset="1" stopColor="#ffb03a"/>
-                    </linearGradient>
-                    <path
-                    fill="url(#AraffhWwwEqZfgFEBZFoqc)" 
-                    d="M41.419,28.393 c1.72-0.96,2.58-2.676,2.581-4.393c-0.001-1.717-0.861-3.434-2.581-4.393l-8.279-4.621L24.126,24l9.014,9.014L41.419,28.393z"/>
-                    <linearGradient 
-                      id="AraffhWwwEqZfgFEBZFoqd" x1="13.853" x2="15.572" y1="5.901" y2="42.811" 
-                      gradientUnits="userSpaceOnUse"><stop offset=".003" stopColor="#0090e6"
-                    />
-                    <stop offset="1" stopColor="#0065a0"/>
-                    </linearGradient>
-                    <path 
-                      fill="url(#AraffhWwwEqZfgFEBZFoqd)" 
-                      d="M6.45,6.323C6.168,6.948,6,7.652,6,8.408 v31.179c0,0.761,0.164,1.463,0.45,2.09l17.674-17.68L6.45,6.323z"
-                    />
-                  </svg>
-                </Link>
-              </motion.div>
+                      <linearGradient 
+                        id="AraffhWwwEqZfgFEBZFoqb" x1="19.158" x2="21.194" y1="23.862" y2="66.931" 
+                        gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#f14e5d"
+                        />
+                        <stop offset=".499" stopColor="#ea3d4f"/>
+                        <stop offset="1" stopColor="#e12138"/>
+                      </linearGradient>
+                        <path 
+                          fill="url(#AraffhWwwEqZfgFEBZFoqb)" 
+                          d="M33.14,33.014L24.126,24L6.45,41.677 c1.156,2.546,4.345,3.815,7.038,2.312L33.14,33.014z"/>
+                      <linearGradient 
+                        id="AraffhWwwEqZfgFEBZFoqc" x1="32.943" x2="36.541" y1="14.899" y2="43.612" 
+                        gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#ffd844"
+                        />
+                        <stop offset=".519" stopColor="#ffc63f"/>
+                        <stop offset="1" stopColor="#ffb03a"/>
+                      </linearGradient>
+                      <path
+                      fill="url(#AraffhWwwEqZfgFEBZFoqc)" 
+                      d="M41.419,28.393 c1.72-0.96,2.58-2.676,2.581-4.393c-0.001-1.717-0.861-3.434-2.581-4.393l-8.279-4.621L24.126,24l9.014,9.014L41.419,28.393z"/>
+                      <linearGradient 
+                        id="AraffhWwwEqZfgFEBZFoqd" x1="13.853" x2="15.572" y1="5.901" y2="42.811" 
+                        gradientUnits="userSpaceOnUse"><stop offset=".003" stopColor="#0090e6"
+                      />
+                      <stop offset="1" stopColor="#0065a0"/>
+                      </linearGradient>
+                      <path 
+                        fill="url(#AraffhWwwEqZfgFEBZFoqd)" 
+                        d="M6.45,6.323C6.168,6.948,6,7.652,6,8.408 v31.179c0,0.761,0.164,1.463,0.45,2.09l17.674-17.68L6.45,6.323z"
+                      />
+                    </svg>
+                  </Link>
+                </motion.div>
+                <span className="group-hover:opacity-100 transition-opacity bg-color-primary px-1 text-sm text-color-indigo rounded-md absolute left-1/2-translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">
+                  PlayStore
+                </span>
+              </div>
             </div>
           </ul>
         </div>

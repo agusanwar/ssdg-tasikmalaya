@@ -116,7 +116,7 @@ const HeroSection = ()=> {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
                   >
-                  <Link href="" className="mr-9 transition-all">
+                  <Link href="/" className="mr-9 transition-all">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg"  
                       viewBox="0 0 48 48" 

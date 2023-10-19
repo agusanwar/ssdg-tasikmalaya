@@ -14,21 +14,17 @@ const PendaftaranSection =() =>{
       </div>
       <div className="grid md:grid-cols-2 gap-10 py-4 px-4 md:gap-20 justify-center items-center">
         <div className="mt-4 md:mt-0 flex flex-col h-full">
-          <p className="text-base lg:text-lg">
+          <p className="text-base mb-5 lg:text-lg">
             Mengenai informasi untuk pendaftaran anggota kowril, bisa menghubungi kontak dibawah ini :
           </p>
-          <br></br>
           <div className='flex flex-col'>
             <div className='flex-col'>
             <h3 className="flex items-center justify-center p-5 bg-color-indigo text-color-primary rounded-b-2xl">Dika Pratama</h3>
-              <br></br>
-              <h3 >Ketua Korwil Tasikmalaya</h3>
+              <h3 className="mt-5" >Ketua Korwil Tasikmalaya</h3>
               <h3 className='indigo'>+62 819-3050-9090</h3>
             </div>
-            <br></br>
             <div className='flex-col'>
-              <h3 className="flex items-center justify-center p-5 bg-color-indigo text-color-primary rounded-b-2xl">Yogi A Yogaswara</h3>
-              <br></br>
+              <h3 className="flex items-center justify-center mt-10 mb-5 p-5 bg-color-indigo text-color-primary rounded-b-2xl">Yogi A Yogaswara</h3>
               <h3>Kaderisasi Korwil Tasikmalaya</h3>
               <h3 className='indigo'>+62 853-5399-1777</h3>
             </div>
