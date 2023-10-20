@@ -36,7 +36,7 @@ const Footer = () => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{  scale: 0.9 }}
                 >
-                  <Link href="https://www.tiktok.com/@ssdg.tasikmalaya" className="mr-9 mt-4 transition-all flex items-center">
+                  <Link href={"https://www.tiktok.com/@ssdg.tasikmalaya" }target="_blank" className="mr-9 mt-4 transition-all flex items-center">
                   <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 48 48" 
@@ -64,7 +64,7 @@ const Footer = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{  scale: 0.9 }}
               >
-                <Link href="https://web.facebook.com/ssdg.korwiltasikmalaya" className="mr-9 mt-4 flex items-center transition-all">
+                <Link href={"https://web.facebook.com/ssdg.korwiltasikmalaya" }target="_blank" className="mr-9 mt-4 flex items-center transition-all">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"  
                   viewBox="0 0 48 48" width="35px" height="35px">
@@ -85,7 +85,7 @@ const Footer = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{  scale: 0.9 }}
               >
-                <Link href="https://www.instagram.com/ssdg.korwiltasikmalaya" className="mr-9 mt-4 flex items-center transition-all">
+                <Link href={"https://www.instagram.com/ssdg.korwiltasikmalaya"} target="_blank" className="mr-9 mt-4 flex items-center transition-all">
                   <svg 
                     xmlns="http://www.w3.org/2000/svg"  
                     viewBox="0 0 48 48" width="35px" height="35px">
@@ -115,7 +115,7 @@ const Footer = () => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{  scale: 0.9 }}
                 >
-                  <Link href="/" className="mt-4 flex items-center transition-all">
+                  <Link href={"/"} target="_blank" className="mt-4 flex items-center transition-all">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg"  
                       viewBox="0 0 48 48" 

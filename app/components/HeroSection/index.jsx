@@ -46,13 +46,13 @@ const HeroSection = ()=> {
                     Data Iuran KAS
                 </Link>
               </div>
-              <ul className="flex flex-row mt-10">    
-                <div className="flex ml-5"> 
+              <div className="flex flex-row mt-10">
+                <div className="flex ml-5">
                   <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
                   >
-                    <Link href="https://www.tiktok.com/@ssdg.tasikmalaya" className="mr-12 transition-all">
+                    <Link href={"https://www.tiktok.com/@ssdg.tasikmalaya"} target="_blank" className="mr-12 transition-all">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg" 
                       viewBox="0 0 48 48" 
@@ -75,7 +75,7 @@ const HeroSection = ()=> {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
                   >
-                    <Link href="https://web.facebook.com/ssdg.korwiltasikmalaya" className="mr-12 transition-all">
+                    <Link href={"https://web.facebook.com/ssdg.korwiltasikmalaya" }target="_blank" className="mr-12 transition-all">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"  
                         viewBox="0 0 48 48" width="30px" height="30px">
@@ -90,92 +90,92 @@ const HeroSection = ()=> {
                   <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
-                  >
-                  <Link href="https://www.instagram.com/ssdg.korwiltasikmalaya" className="mr-12 transition-all">
-                    <svg 
-                      xmlns="http://www.w3.org/2000/svg"  
-                      viewBox="0 0 48 48" width="30px" height="30px">
-                      <radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
-                        <stop offset="0" stopColor="#fd5"/>
-                        <stop offset=".328" stopColor="#ff543f"/><stop offset=".348" stopColor="#fc5245"/>
-                        <stop offset=".504" stopColor="#e64771"/><stop offset=".643" stopColor="#d53e91"/>
-                        <stop offset=".761" stopColor="#cc39a4"/><stop offset=".841" stopColor="#c837ab"/>
-                      </radialGradient>
-                      <path fill="url(#yOrnnhliCrdS2gy~4tD8ma)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/>
-                      <radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
-                        <stop offset="0" stopColor="#4168c9"/><stop offset=".999" stopColor="#4168c9" stopOpacity="0"/>
-                      </radialGradient>
-                      <path fill="url(#yOrnnhliCrdS2gy~4tD8mb)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/>
-                      <path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"/>
-                      <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/>
-                      <path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/>
-                  </svg>
-                  </Link>
+                    >
+                    <Link href={"https://www.instagram.com/ssdg.korwiltasikmalaya"} target="_blank" className="mr-12 transition-all">
+                      <svg 
+                        xmlns="http://www.w3.org/2000/svg"  
+                        viewBox="0 0 48 48" width="30px" height="30px">
+                        <radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
+                          <stop offset="0" stopColor="#fd5"/>
+                          <stop offset=".328" stopColor="#ff543f"/><stop offset=".348" stopColor="#fc5245"/>
+                          <stop offset=".504" stopColor="#e64771"/><stop offset=".643" stopColor="#d53e91"/>
+                          <stop offset=".761" stopColor="#cc39a4"/><stop offset=".841" stopColor="#c837ab"/>
+                        </radialGradient>
+                        <path fill="url(#yOrnnhliCrdS2gy~4tD8ma)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/>
+                        <radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
+                          <stop offset="0" stopColor="#4168c9"/><stop offset=".999" stopColor="#4168c9" stopOpacity="0"/>
+                        </radialGradient>
+                        <path fill="url(#yOrnnhliCrdS2gy~4tD8mb)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/>
+                        <path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"/>
+                        <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/>
+                        <path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/>
+                      </svg>
+                    </Link>
                   </motion.div>
                   <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
-                  >
-                  <Link href="/" className="transition-all">
-                    <svg 
-                      xmlns="http://www.w3.org/2000/svg"  
-                      viewBox="0 0 48 48" 
-                      width="30px" 
-                      height="30px" 
-                      baseProfile="basic"
-                      >
-                      <linearGradient 
-                        id="AraffhWwwEqZfgFEBZFoqa" 
-                        x1="18.102" 
-                        x2="25.297" 
-                        y1="3.244" 
-                        y2="34.74" 
-                        gradientUnits="userSpaceOnUse"
-                      >
-                      <stop offset="0" stopColor="#35ab4a"/>
-                      <stop offset=".297" stopColor="#31a145"/>
-                      <stop offset=".798" stopColor="#288739"/>
-                      <stop offset="1" stopColor="#237a33"/>
-                      </linearGradient>
-                      <path 
-                        fill="url(#AraffhWwwEqZfgFEBZFoqa)" 
-                        d="M13.488,4.012C10.794,2.508,7.605,3.778,6.45,6.323L24.126,24l9.014-9.014L13.488,4.012z"
-                      />
-                      <linearGradient 
-                        id="AraffhWwwEqZfgFEBZFoqb" x1="19.158" x2="21.194" y1="23.862" y2="66.931" 
-                        gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#f14e5d"
-                        />
-                        <stop offset=".499" stopColor="#ea3d4f"/>
-                        <stop offset="1" stopColor="#e12138"/>
-                      </linearGradient>
+                    >
+                    <Link href={"/"} target="_blank" className="transition-all">
+                      <svg 
+                        xmlns="http://www.w3.org/2000/svg"  
+                        viewBox="0 0 48 48" 
+                        width="30px" 
+                        height="30px" 
+                        baseProfile="basic"
+                        >
+                        <linearGradient 
+                          id="AraffhWwwEqZfgFEBZFoqa" 
+                          x1="18.102" 
+                          x2="25.297" 
+                          y1="3.244" 
+                          y2="34.74" 
+                          gradientUnits="userSpaceOnUse"
+                        >
+                        <stop offset="0" stopColor="#35ab4a"/>
+                        <stop offset=".297" stopColor="#31a145"/>
+                        <stop offset=".798" stopColor="#288739"/>
+                        <stop offset="1" stopColor="#237a33"/>
+                        </linearGradient>
                         <path 
-                          fill="url(#AraffhWwwEqZfgFEBZFoqb)" 
-                          d="M33.14,33.014L24.126,24L6.45,41.677 c1.156,2.546,4.345,3.815,7.038,2.312L33.14,33.014z"/>
-                      <linearGradient 
-                        id="AraffhWwwEqZfgFEBZFoqc" x1="32.943" x2="36.541" y1="14.899" y2="43.612" 
-                        gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#ffd844"
+                          fill="url(#AraffhWwwEqZfgFEBZFoqa)" 
+                          d="M13.488,4.012C10.794,2.508,7.605,3.778,6.45,6.323L24.126,24l9.014-9.014L13.488,4.012z"
                         />
-                        <stop offset=".519" stopColor="#ffc63f"/>
-                        <stop offset="1" stopColor="#ffb03a"/>
-                      </linearGradient>
-                      <path
-                      fill="url(#AraffhWwwEqZfgFEBZFoqc)" 
-                      d="M41.419,28.393 c1.72-0.96,2.58-2.676,2.581-4.393c-0.001-1.717-0.861-3.434-2.581-4.393l-8.279-4.621L24.126,24l9.014,9.014L41.419,28.393z"/>
-                      <linearGradient 
-                        id="AraffhWwwEqZfgFEBZFoqd" x1="13.853" x2="15.572" y1="5.901" y2="42.811" 
-                        gradientUnits="userSpaceOnUse"><stop offset=".003" stopColor="#0090e6"
-                      />
-                      <stop offset="1" stopColor="#0065a0"/>
-                      </linearGradient>
-                      <path 
-                        fill="url(#AraffhWwwEqZfgFEBZFoqd)" 
-                        d="M6.45,6.323C6.168,6.948,6,7.652,6,8.408 v31.179c0,0.761,0.164,1.463,0.45,2.09l17.674-17.68L6.45,6.323z"
-                      />
-                    </svg>
-                  </Link>
+                        <linearGradient 
+                          id="AraffhWwwEqZfgFEBZFoqb" x1="19.158" x2="21.194" y1="23.862" y2="66.931" 
+                          gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#f14e5d"
+                          />
+                          <stop offset=".499" stopColor="#ea3d4f"/>
+                          <stop offset="1" stopColor="#e12138"/>
+                        </linearGradient>
+                          <path 
+                            fill="url(#AraffhWwwEqZfgFEBZFoqb)" 
+                            d="M33.14,33.014L24.126,24L6.45,41.677 c1.156,2.546,4.345,3.815,7.038,2.312L33.14,33.014z"/>
+                        <linearGradient 
+                          id="AraffhWwwEqZfgFEBZFoqc" x1="32.943" x2="36.541" y1="14.899" y2="43.612" 
+                          gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#ffd844"
+                          />
+                          <stop offset=".519" stopColor="#ffc63f"/>
+                          <stop offset="1" stopColor="#ffb03a"/>
+                        </linearGradient>
+                        <path
+                        fill="url(#AraffhWwwEqZfgFEBZFoqc)" 
+                        d="M41.419,28.393 c1.72-0.96,2.58-2.676,2.581-4.393c-0.001-1.717-0.861-3.434-2.581-4.393l-8.279-4.621L24.126,24l9.014,9.014L41.419,28.393z"/>
+                        <linearGradient 
+                          id="AraffhWwwEqZfgFEBZFoqd" x1="13.853" x2="15.572" y1="5.901" y2="42.811" 
+                          gradientUnits="userSpaceOnUse"><stop offset=".003" stopColor="#0090e6"
+                        />
+                        <stop offset="1" stopColor="#0065a0"/>
+                        </linearGradient>
+                        <path 
+                          fill="url(#AraffhWwwEqZfgFEBZFoqd)" 
+                          d="M6.45,6.323C6.168,6.948,6,7.652,6,8.408 v31.179c0,0.761,0.164,1.463,0.45,2.09l17.674-17.68L6.45,6.323z"
+                        />
+                      </svg>
+                    </Link>
                   </motion.div>
                 </div>
-              </ul>
+              </div>
             </div>
           </div>
         <br></br>
