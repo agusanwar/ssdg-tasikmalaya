@@ -46,18 +46,18 @@ const HeroSection = ()=> {
                     Data Iuran KAS
                 </Link>
               </div>
-              <ul className="flex flex-nowrap mt-10">    
-                <div className="flex ml-5 "> 
+              <ul className="flex flex-row mt-10">    
+                <div className="flex ml-5"> 
                   <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
                   >
-                    <Link href="https://www.tiktok.com/@ssdg.tasikmalaya" className="mr-9 transition-all">
+                    <Link href="https://www.tiktok.com/@ssdg.tasikmalaya" className="mr-12 transition-all">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg" 
                       viewBox="0 0 48 48" 
-                      width="20px" 
-                      height="20px"
+                      width="30px" 
+                      height="30px"
                       >
                       <path fill="#3dd9eb" d="M20,37c2.761,0,5-2.239,5-5v-1v-1V6.07h5.208c-0.031-0.14-0.072-0.276-0.097-0.419H30.11 c-0.044-0.248-0.076-0.495-0.099-0.746V4.07H23V28v1v1c0,2.761-2.239,5-5,5c-0.864,0-1.665-0.239-2.375-0.625 C16.473,35.931,18.103,37,20,37z"/>
                       <path fill="#f55376" d="M33.718,11.407c-0.797-1.094-1.364-2.367-1.607-3.756H32.11c-0.044-0.248-0.076-0.495-0.099-0.746 V6.07h-1.803C30.699,8.252,31.969,10.132,33.718,11.407z"
@@ -75,10 +75,10 @@ const HeroSection = ()=> {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
                   >
-                    <Link href="https://web.facebook.com/ssdg.korwiltasikmalaya" className="mr-9 transition-all">
+                    <Link href="https://web.facebook.com/ssdg.korwiltasikmalaya" className="mr-12 transition-all">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"  
-                        viewBox="0 0 48 48" width="20px" height="20px">
+                        viewBox="0 0 48 48" width="30px" height="30px">
                         <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse">
                         <stop offset="0" stopColor="#2aa4f4"/><stop offset="1" stopColor="#007ad9"/>
                         </linearGradient>
@@ -91,10 +91,10 @@ const HeroSection = ()=> {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
                   >
-                  <Link href="https://www.instagram.com/ssdg.korwiltasikmalaya" className="mr-9 transition-all">
+                  <Link href="https://www.instagram.com/ssdg.korwiltasikmalaya" className="mr-12 transition-all">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg"  
-                      viewBox="0 0 48 48" width="20px" height="20px">
+                      viewBox="0 0 48 48" width="30px" height="30px">
                       <radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
                         <stop offset="0" stopColor="#fd5"/>
                         <stop offset=".328" stopColor="#ff543f"/><stop offset=".348" stopColor="#fc5245"/>
@@ -116,12 +116,12 @@ const HeroSection = ()=> {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{  scale: 0.9 }}
                   >
-                  <Link href="/" className="mr-9 transition-all">
+                  <Link href="/" className="transition-all">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg"  
                       viewBox="0 0 48 48" 
-                      width="20px" 
-                      height="20px" 
+                      width="30px" 
+                      height="30px" 
                       baseProfile="basic"
                       >
                       <linearGradient 
