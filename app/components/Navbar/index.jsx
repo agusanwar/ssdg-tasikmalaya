@@ -50,13 +50,13 @@ const Navbar = () => {
             >
             <Link
               href={"/"}
-              className="text-sm md:text-md text-white font-semibold hover:text-amber-400"
+              className="text-sm md:text-md text-white font-semibold hover:text-amber-500"
               >
               SSDG TASIKMALAYA
             </Link>   
           </motion.div>
         </div>
-          <div className="mobile-menu block md:hidden rounded border-slate-200 hover:text-amber-400">
+          <div className="mobile-menu block md:hidden rounded border-slate-200 hover:text-amber-500">
             {!navbarOpen ? (
               <button
                 onClick={() => setNavbarOpen(true)}
