@@ -19,12 +19,12 @@ const KegiatanSection =() =>{
               <Image
                 className="shadow rounded w-full h-auto border-none"
                 src="/images/kegiatan/pengajian-al-quran.webp" 
-                width={400} 
-                height={400} 
+                width={350} 
+                height={350} 
                 alt="image pengajian"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Pengajian Al Quran dan Makhraj Huruf</h3>
-              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Setiap Jumat Malam Di Mesjid An Nimah, Rumah Ki Ohang</p>
+              <p className="font-regular text-gray-400 md:text-md text:sm mt-5 mb-5">Setiap Jumat Malam Di Mesjid An Nimah, Rumah Ki Ohang</p>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
@@ -37,7 +37,7 @@ const KegiatanSection =() =>{
                 alt="image pengajian"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Pengajian Kitab Riyadhus Shalihin</h3>
-              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Setiap Sabtu Malam Di Mesjid An Nimah  Rumah Ki Ohang</p>
+              <p className="font-regular text-gray-400 md:text-md text:sm mt-5 mb-5">Setiap Sabtu Malam Di Mesjid An Nimah  Rumah Ki Ohang</p>
             </div>
           </div>   
          <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
@@ -50,7 +50,7 @@ const KegiatanSection =() =>{
                 alt="image ruqiah"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Pelatihan Ruqyah Syariyyah</h3>
-              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Jadwal Masih Mobile</p>
+              <p className="font-regular text-gray-400 md:text-md text:sm mt-5 mb-5">Jadwal Masih Mobile</p>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
@@ -63,7 +63,7 @@ const KegiatanSection =() =>{
                 alt="image silaturahmi"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Tablig Akbar, Tausyiah, Ruqyah dan Pengobatan</h3>
-              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Coming Soon</p>
+              <p className="font-regular text-gray-400 md:text-md text:sm mt-5 mb-5">Coming Soon</p>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
@@ -76,7 +76,7 @@ const KegiatanSection =() =>{
                 alt="image maggkotas"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Pelatihan Budidaya Maggot</h3>
-              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Coming Soon</p>
+              <p className="font-regular text-gray-400 md:text-md text:sm mt-5 mb-5">Coming Soon</p>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
@@ -89,7 +89,7 @@ const KegiatanSection =() =>{
                 alt="image archery"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Tasikmalaya Archery</h3>
-              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Coming Soon</p>
+              <p className="font-regular text-gray-400 md:text-md text:sm mt-5 mb-5">Coming Soon</p>
             </div>
           </div> 
         </div>

@@ -29,7 +29,7 @@ const Footer = () => {
             </h2>
           </Link>
           </motion.div>
-          <ul className="flex flex-wrap justify-center items-center mb-5">
+          <div className="flex flex-wrap justify-center items-center mb-5">
             <div className="flex mt-15 items-center justify-between"> 
               <div className="group relative">
                 <motion.div
@@ -146,7 +146,7 @@ const Footer = () => {
                 </span>
               </div>
             </div>
-          </ul>
+          </div>
         </div>
         <hr className=" flex my-6 border-gray-200 items-center justify-center sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span className="block text-sm text-color-primary sm:text-center">© 2023 SSDGTASIKMALAYA™. All Rights Reserved.</span>

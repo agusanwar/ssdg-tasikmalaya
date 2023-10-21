@@ -16,7 +16,7 @@ const HerbalSection = () => {
         <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
           <div className="rounded max-w-full h-auto justify-center border-none">
             <Image
-              className="rounded max-w-full h-auto border-none"
+              className="shadow rounded max-w-full h-auto align-middle border-none"
               src="/images/herbal/herbal_detox.webp" 
               width={500} 
               height={500} 

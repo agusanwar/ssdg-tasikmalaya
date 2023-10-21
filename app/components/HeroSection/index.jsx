@@ -145,7 +145,7 @@ const HeroSection = ()=> {
                         </svg>
                       </Link>
                     </motion.div>
-                    <span className="group-hover:opacity-100 transition-opacity bg-color-primary text-sm text-color-indigo rounded-md opacity-0">
+                    <span className="group-hover:opacity-100 transition-opacity bg-color-primary text-sm text-color-indigo absolute rounded-md opacity-0">
                       Youtube
                     </span>
                   </div>
@@ -177,8 +177,6 @@ const HeroSection = ()=> {
               </div>
             </div>
           </div>
-        <br></br>
-      <br></br>
     </div>
   );
 };
