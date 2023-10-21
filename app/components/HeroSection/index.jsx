@@ -86,7 +86,9 @@ const HeroSection = ()=> {
                         <svg
                           xmlns="http://www.w3.org/2000/svg" 
                           fill="currentColor" 
-                          className="w-6" 
+                          className="bi bi-facebook" 
+                          width="24" 
+                          height="24" 
                           viewBox="0 0 16 16"
                           >
                           <path 
@@ -108,7 +110,9 @@ const HeroSection = ()=> {
                         <svg 
                           xmlns="http://www.w3.org/2000/svg" 
                           fill="currentColor" 
-                          className="w-6" 
+                          className="bi bi-instagram" 
+                          width="24" 
+                          height="24"
                           viewBox="0 0 16 16"
                           >
                           <path 
@@ -130,7 +134,9 @@ const HeroSection = ()=> {
                       <svg 
                         xmlns="http://www.w3.org/2000/svg" 
                         fill="currentColor" 
-                        className="w-6" 
+                        className="bi bi-youtube" 
+                        width="24" 
+                        height="24"
                         viewBox="0 0 16 16"
                         >
                         <path 
@@ -139,7 +145,7 @@ const HeroSection = ()=> {
                         </svg>
                       </Link>
                     </motion.div>
-                    <span className="group-hover:opacity-100 transition-opacity bg-color-primary text-sm text-color-indigo rounded-md absolute m-6 opacity-0">
+                    <span className="group-hover:opacity-100 transition-opacity bg-color-primary text-sm text-color-indigo rounded-md opacity-0">
                       Youtube
                     </span>
                   </div>
@@ -151,10 +157,10 @@ const HeroSection = ()=> {
                       <Link href={"/"} className="mr-5 hover:text-amber-500 transition-all">
                         <svg 
                           xmlns="http://www.w3.org/2000/svg" 
-                          width="24"
-                          height="24" 
                           fill="currentColor" 
                           className="bi bi-github" 
+                          width="24" 
+                          height="24"
                           viewBox="0 0 16 16"
                         >
                         <path 

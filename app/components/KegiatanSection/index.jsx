@@ -2,7 +2,7 @@
 import React from "react"
 import Image from "next/image"
 
-const Index =() =>{
+const KegiatanSection =() =>{
   return (
     <section className="lg:py-5 px-5 py-5"  id="kegiatan">
       <div className=" items-center justify-center py-8 px-4 xl:gap-8 sm:py-16 xl:px-8">
@@ -24,7 +24,7 @@ const Index =() =>{
                 alt="image pengajian"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Pengajian Al Quran dan Makhraj Huruf</h3>
-              <h4 className="font-regular md:text-md text:sm mt-5 mb-5">Setiap Jumat Malam Di Mesjid An Nimah, Rumah Ki Ohang</h4>
+              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Setiap Jumat Malam Di Mesjid An Nimah, Rumah Ki Ohang</p>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
@@ -37,7 +37,7 @@ const Index =() =>{
                 alt="image pengajian"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Pengajian Kitab Riyadhus Shalihin</h3>
-              <h4 className="font-regular md:text-md text:sm mt-5 mb-5">Setiap Sabtu Malam Di Mesjid An Nimah  Rumah Ki Ohang</h4>
+              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Setiap Sabtu Malam Di Mesjid An Nimah  Rumah Ki Ohang</p>
             </div>
           </div>   
          <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
@@ -50,7 +50,7 @@ const Index =() =>{
                 alt="image ruqiah"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Pelatihan Ruqyah Syariyyah</h3>
-              <h4 className="font-regular md:text-md text:smmt-5 mb-5">Jadwal Masih Mobile</h4>
+              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Jadwal Masih Mobile</p>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
@@ -63,7 +63,7 @@ const Index =() =>{
                 alt="image silaturahmi"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Tablig Akbar, Tausyiah, Ruqyah dan Pengobatan</h3>
-              <h3 className="font-regular md:text-md text:sm mt-5 mb-5">Coming Soon</h3>
+              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Coming Soon</p>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
@@ -76,7 +76,7 @@ const Index =() =>{
                 alt="image maggkotas"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Pelatihan Budidaya Maggot</h3>
-              <h4 className="font-regular md:text-md text:sm mt-5 mb-5">Coming Soon</h4>
+              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Coming Soon</p>
             </div>
           </div>
           <div className="flex flex-wrap justify-center cursor-pointer items-center bg-neutral-900 rounded-2xl p-4 shadow hover:shadow-2xl hover:shadow-indigo-700 text-color-primary hover:text-color-yellow transition-all">
@@ -89,7 +89,7 @@ const Index =() =>{
                 alt="image archery"
               />
               <h3 className="font-bold md:text-xl text:2xl mt-10">Tasikmalaya Archery</h3>
-              <h4 className="font-regular md:text-md text:sm mt-5 mb-5">Coming Soon</h4>
+              <p className="font-regular text-gray-500 md:text-md text:sm mt-5 mb-5">Coming Soon</p>
             </div>
           </div> 
         </div>
@@ -98,4 +98,4 @@ const Index =() =>{
   )
 }
 
-export default Index
+export default KegiatanSection;
