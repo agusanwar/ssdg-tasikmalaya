@@ -126,7 +126,7 @@ const HeroSection = ()=> {
                       whileHover={{ scale: 1.1 }}
                       whileTap={{  scale: 0.9 }}
                       >
-                      <Link href={"/"} className="mr-12 hover:text-amber-500 transition-all">
+                      <Link href={"https://www.youtube.com/@SyiarDalamgelap-my8pb"} className="mr-12 hover:text-amber-500 transition-all">
                       <svg 
                         xmlns="http://www.w3.org/2000/svg" 
                         fill="currentColor" 
@@ -148,7 +148,7 @@ const HeroSection = ()=> {
                       whileHover={{ scale: 1.1 }}
                       whileTap={{  scale: 0.9 }}
                       >
-                      <Link href={"https://www.youtube.com/@SyiarDalamgelap-my8pb"} className="mr-5 hover:text-amber-500 transition-all">
+                      <Link href={"/"} className="mr-5 hover:text-amber-500 transition-all">
                         <svg 
                           xmlns="http://www.w3.org/2000/svg" 
                           width="24"
