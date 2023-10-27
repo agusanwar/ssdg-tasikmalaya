@@ -63,6 +63,10 @@ img:hover {
   scale: 102%;
 }
 
+.sample-slider .swiper-wrapper{
+  transition-timing-function: linear;
+}
+
 .loading {
   width: 56px;
   height: 56px;
