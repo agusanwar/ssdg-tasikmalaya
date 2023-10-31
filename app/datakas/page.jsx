@@ -33,7 +33,10 @@ const Datakas = () => {
               alt="image bri"
             />
             <p className="text-white text-xl">
-             - a/n SUTRISNO
+            4468 0101 6532 538
+            </p>
+            <p className="text-white text-xl">
+            a/n SUTRISNO
             </p>
             <div className="mt-5">
               <p className="text-white text-base">

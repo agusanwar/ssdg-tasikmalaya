@@ -3,9 +3,9 @@ const nextConfig = {
     // for configurate in ott
     images: {
         remotePatterns: [
-        {
-            hostname: "fakestoreapi.com"
-        }
+            {
+                hostname: "fakestoreapi.com"
+            }
         ]
     },
     eslint: {
