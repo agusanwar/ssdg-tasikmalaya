@@ -15,16 +15,12 @@ const Datakas = () => {
           <br></br>
           </h1>
       </Link> 
-      <p className="text-white mt-5 mb-4 text-2xl font-bold">
-          Data Kas Periode 2023
+      <p className="text-white mt-5 mb=5 mb-4 text-2xl font-bold">
+        Pembayaran Iuran KAS
       </p>
-      <TableDataKas/>
-      <p className="text-white mt-10 mb-4 text-2xl font-bold">
-          Pembayaran Iuran KAS
-        </p>
-      <div className="relative justify-items-center justify-evenly w-full px-4 py-4 mx-auto md:px-12 lg:px-24 max-w-7xl">
-        <div className="grid md:grid-cols-2 justify-center text-center items-center sm:grid-cols-1 grid-cols-1 gap-4 px-4">
-          <div className="max-w-sm justify-center text-center items-center overflow-hidden shadow-lg bg-zinc-900 rounded-2xl p-4 hover:shadow-2x hover:shadow-amber-700 cursor-pointer hover:text-color-yellow transition-all">
+      <div className="relative w-full px-4 py-4 mx-auto md:px-24 lg:px-24 max-w-7xl">
+        <div className="grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4 px-4 ">
+          <div className="max-w-sm mx-auto justify-center text-center items-center overflow-hidden shadow-lg bg-zinc-900 rounded-2xl p-4 hover:shadow-2x hover:shadow-color-primary cursor-pointer hover:text-color-primary transition-all">
             <Image
               className="p-4 max-w-full h-auto border-none"
               src="/images/bri.webp" 
@@ -47,7 +43,7 @@ const Datakas = () => {
               <span className="block w-full text-center bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-black">Ki Ohang - SUTRISNO</span>
             </div>
           </div>
-          <div className="max-w-sm justify-center text-center items-center overflow-hidden shadow-lg bg-zinc-900 rounded-2xl p-4 hover:shadow-2x hover:shadow-amber-700 cursor-pointer hover:text-color-yellow transition-all">
+          <div className="max-w-sm mx-auto justify-center text-center items-center overflow-hidden shadow-lg bg-zinc-900 rounded-2xl p-4 hover:shadow-2x hover:shadow-color-primary cursor-pointer hover:text-color-primary transition-all">
             <Image
               className="p-4 max-w-full h-auto border-none"
               src="/images/dana.webp" 
@@ -55,10 +51,11 @@ const Datakas = () => {
               height={100} 
               alt="image dana"
             />
-            <p className="text-white text-xl">
+            <p className="text-white text-xl mb-10">
               0819-3050-9090
             </p>
-            <div className="mt-5">
+            
+            <div className="mt-5 px-5">
               <p className="text-white text-base">
               Ketua Korwil Tasikmalaya
               </p>
@@ -69,6 +66,13 @@ const Datakas = () => {
           </div>
         </div>
       </div>
+
+      <p className="text-white mt-5 mb-4 text-2xl font-bold">
+          Data Kas Periode 2023
+      </p>
+     <div className="mb-20">
+     <TableDataKas />
+     </div>
     </div>
   );
 };
