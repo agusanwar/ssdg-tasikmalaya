@@ -6,20 +6,20 @@ import TableDataKas from '../components/TableDataKas'
 
 const Datakas = () => {
   return(
-    <div className="col-span-7 ml-5 mr-5 bg-[#121212]  place-self-center text-left sm:text-left "> 
+    <div className="col-span-7 bg-[#121212] px-5 py-5 place-self-center text-left sm:text-left "> 
       <Link href="/" className="flex items-center sm:mb-0">
-          <h1 className="text-white mt-10 mb-4 text-4xl font-extrabold ">
+          <h1 className="text-white mb-5 text-4xl font-extrabold ">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-yellow-400">
             SSDG KORWIL TASIKMALAYA
           </span>
           <br></br>
           </h1>
       </Link> 
-      <p className="text-white mt-5 mb=5 mb-4 text-2xl font-bold">
+      <p className="text-white mb-5 text-2xl font-bold">
         Pembayaran Iuran KAS
       </p>
-      <div className="relative w-full px-4 py-4 mx-auto md:px-24 lg:px-24 max-w-7xl">
-        <div className="grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4 px-4 ">
+      <div className="relative w-full mx-auto md:px-10 lg:px-10 max-w-7xl">
+        <div className="grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4">
           <div className="max-w-sm mx-auto justify-center text-center items-center overflow-hidden shadow-lg bg-zinc-900 rounded-2xl p-4 hover:shadow-2x hover:shadow-color-primary cursor-pointer hover:text-color-primary transition-all">
             <Image
               className="p-4 max-w-full h-auto border-none"
