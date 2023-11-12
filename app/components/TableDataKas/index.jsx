@@ -128,7 +128,7 @@ const columns = [
     createData('95','Rutiman', '-','-', '-', '-', '-', '-', '-', '-','-'),
     createData('96','Shendi Gunawan ', '-','-', '-', '-', '-', '-', '-', '-','-'),
     createData('97','Sidik Pauzi', '-','-', '-', '-', '-', '-', '-', '-','-'),
-    createData('98','Sofyan Saori', '','', '', '', '✔', '✔', '-', '-','-'),
+    createData('98','Sofyan Saori', '','', '', '', '✔', '✔', '✔', '✔','-'),
     createData('99','Sulaeman', '✔','✔', '✔', '✔', '✔', '✔', '✔', '✔', '✔'),
     createData('100','Sutrisno', '✔','✔', '✔', '✔', '✔', '✔', '✔', '✔', '✔'),
     createData('101','Syaefuloh', '✔','✔', '✔', '✔', '✔', '-', '-', '-','-'),
