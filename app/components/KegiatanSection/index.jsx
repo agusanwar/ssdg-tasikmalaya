@@ -5,7 +5,7 @@ import Image from "next/image"
 const KegiatanSection =() =>{
   return (
     <section className="lg:py-5 px-5 py-5"  id="kegiatan">
-      <div className=" items-center justify-center py-8 px-4 xl:gap-8 sm:py-16 xl:px-8">
+      <div className="items-center justify-center py-8 px-4 xl:gap-8 sm:py-16 xl:px-8">
         <h1 className="text-white text-center text-4xl font-extrabold ">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-200">
             Kegiatan Korwil Tasikmalaya

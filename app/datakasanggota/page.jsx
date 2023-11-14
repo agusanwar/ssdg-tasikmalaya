@@ -1,22 +1,26 @@
+"use client"
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import TableDataKas from '../components/TableDataKas'
+import NewTable from '../components/NewTable'
 
 
 const DatakasAnggota = () => {
   return(
-    <div className="col-span-7 bg-[#121212] px-5 py-5 place-self-center text-left sm:text-left "> 
-      <Link href="/" className="flex items-center sm:mb-0">
-          <h1 className="text-white mb-5 text-4xl font-extrabold ">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-yellow-400">
-            SSDG KORWIL TASIKMALAYA
+    <div className="col-span-7 bg-[#121212] px-5 py-5 items-center justify-center"> 
+      <Link href="/" className="flex items-center justify-center sm:mb-0">
+      <div className="flex items-center justify-center mb-5">
+        <h1 className="text-white flex items-center justify-center text-center sm:text-5xl text-4xl font-extrabold ">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-orange-200">
+           SSDG Korwil Tasikmalaya
           </span>
-          <br></br>
-          </h1>
+        </h1>
+      </div>
       </Link> 
-      <p className="text-white mb-5 text-2xl font-bold">
-        Pembayaran Iuran KAS
+      <p className="text-white text-center mb-5 text-xl font-bold">
+        Metode Pembayaran Iuran KAS Anggota
       </p>
       <div className="relative w-full mx-auto md:px-10 lg:px-10 max-w-7xl">
         <div className="grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4">
@@ -71,7 +75,7 @@ const DatakasAnggota = () => {
           Data Kas Periode 2023
       </p>
      <div className="mb-20">
-     <TableDataKas />
+     <NewTable />
      </div>
     </div>
   );
