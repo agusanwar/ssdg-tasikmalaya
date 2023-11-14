@@ -38,19 +38,29 @@ const HeroSection = ()=> {
             </h1>
             <p className="text-[#ADB7BE] text-base sm:text-md text-md lg:text-sm mb-6"> 
               Jaga Terus...! Iman, Ilmu & Amal kita
-            </p>
-            <div>
+            </p>  
+            <div className="flex flex-row ml-2">
             <motion.div
-              whileHover={{ scale: 1.1 }}
-              whileTap={{  scale: 0.7 }}
-              >
-              <Link
-                href="/datakas"
-                className="bg-transparent transition-all px-4 mt-5 py-3 text-center text-white hover:bg-color-indigo font-semibold hover:text-white inline-block w-full sm:w-fit border hover:border-transparent border-color-primary rounded-full">
-                  Data Iuran KAS
-              </Link>
-            </motion.div>
-            </div>
+                whileHover={{ scale: 1.1 }}
+                whileTap={{  scale: 0.5 }}
+                >
+                <Link
+                  href="/datakas"
+                  className="bg-transparent transition-all px-4 mt-5 py-3 text-center text-white hover:bg-color-indigo font-semibold hover:text-white inline-block w-full sm:w-fit border hover:border-transparent border-color-primary rounded-full">
+                    Data Iuran KAS
+                </Link>
+              </motion.div>
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                whileTap={{  scale: 0.5 }}
+                >
+                <Link
+                  href="/new"
+                  className="bg-transparent transition-all px-4 ml-5 mt-5 py-3 text-center text-white hover:bg-color-yellow font-semibold hover:text-white inline-block w-full sm:w-fit border hover:border-transparent border-color-primary rounded-full">
+                    Yang Terbaru
+                </Link>
+              </motion.div>
+            </div>   
             <div className="flex flex-row mt-10">
               <div className="flex ml-4">
                 <div className="group relative">
