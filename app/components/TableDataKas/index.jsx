@@ -137,7 +137,7 @@ const columns = [
     createData('104','Toni Hidayat', '✔','✔', '✔', '✔', '✔', '✔', '✔', '✔', '✔'),
     createData('105','Trisna Gusviana','✔','✔', '-', '-', '-', '-', '-', '-','-'),
     createData('106','U Yadi Setiadi', '-','-', '-', '-', '-', '-', '-', '-','-'),
-    createData('107','Ujang Maman', '-','-', '-', '-', '-', '-', '-', '-','-'),
+    createData('107','Ujang Maman Suherman', '✔','✔', '✔', '✔', '✔', '-', '-', '-','-'),
     createData('108','Ujang muhamad yusuf', '✔','✔', '✔', '✔', '✔', '-', '-', '-','-'),
     createData('109','Yogi Apriandi Yogaswara', '✔','✔', '✔', '-', '-', '-', '-', '-','-'),
     createData('110','Yopi Insani', '-','-', '-', '-', '-', '-', '-', '-','-'),

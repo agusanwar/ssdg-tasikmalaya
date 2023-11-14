@@ -4,7 +4,7 @@ import Link from "next/link";
 import TableDataKas from '../components/TableDataKas'
 
 
-const Datakas = () => {
+const DatakasAnggota = () => {
   return(
     <div className="col-span-7 bg-[#121212] px-5 py-5 place-self-center text-left sm:text-left "> 
       <Link href="/" className="flex items-center sm:mb-0">
@@ -77,4 +77,4 @@ const Datakas = () => {
   );
 };
 
-export default Datakas;
+export default DatakasAnggota;

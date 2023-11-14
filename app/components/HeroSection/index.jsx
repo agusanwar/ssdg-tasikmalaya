@@ -40,16 +40,16 @@ const HeroSection = ()=> {
               Jaga Terus...! Iman, Ilmu & Amal kita
             </p>  
             <div className="flex flex-row ml-2">
-            <motion.div
+              {/* <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{  scale: 0.5 }}
                 >
                 <Link
-                  href="/datakas"
+                  href="/datakasanggota"
                   className="bg-transparent transition-all px-4 mt-5 py-3 text-center text-white hover:bg-color-indigo font-semibold hover:text-white inline-block w-full sm:w-fit border hover:border-transparent border-color-primary rounded-full">
                     Data Iuran KAS
                 </Link>
-              </motion.div>
+              </motion.div> */}
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{  scale: 0.5 }}
@@ -57,7 +57,7 @@ const HeroSection = ()=> {
                 <Link
                   href="/new"
                   className="bg-transparent transition-all px-4 ml-5 mt-5 py-3 text-center text-white hover:bg-color-yellow font-semibold hover:text-white inline-block w-full sm:w-fit border hover:border-transparent border-color-primary rounded-full">
-                    Yang Terbaru
+                    New Information
                 </Link>
               </motion.div>
             </div>   
