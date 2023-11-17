@@ -1,72 +1,63 @@
-import React from 'react'
-import Image from 'next/image';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, A11y, Autoplay} from 'swiper/modules';
-import {motion} from "framer-motion"
+import * as React from 'react';
 
-const SwiperJS = () => {
+import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+const photos = [
+ {
+  img: '/images/logo.webp',
+  price: 'image 1',
+ },
+ {
+  img: '/images/logo.webp',
+  price: 'image 2',
+ },
+ {
+  img: '/images/logo.webp',
+  price: 'image 3',
+ },
+];
+const CoverFlow =() => {
   return (
-   <div>
-     <Swiper
-          modules={[Navigation, Pagination, A11y, Autoplay]}
-          className='sample-slider'
-          speed={5000}
-          direction='horizontal'
+      <div className="lg:mx-auto max-w-4xl mx-[1rem]">
+        <Swiper
+          modules={[EffectCoverflow, Pagination]}
+          effect={'coverflow'}
           loop={true}
-          observer={true}
-          observeParents={true}
-          parallax={true}
-          effect='slide'
-          autoplay={{
-            delay:0,
-            disableOnInteraction: false
+          spaceBetween={30}
+          slidesPerView={3}
+          pagination={{
+            clickable: true,
           }}
-          slidesPerView={4}
           centeredSlides={true}
-          spaceBetween={15}
-          breakpoints={{
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 10
-            },
-            480: { slidesPerView: 3 },
-            740: { slidesPerView: 3 },
-            1275: { slidesPerView: 4 },
+          grabCursor={true}
+          coverflowEffect={{
+            rotate: 0,
+            slideShadows: false,
           }}
+          className="coverflow"
         >
-           {products.map((item) => (
-            <motion.div
-            whileHover={{ scale: 1.1 }}
-            whileTap={{  scale: 0.7 }}
-            >
-            <SwiperSlide
-              key={item.id}
-              className='grid justify-center items-center bg-black rounded-2xl p-4 shadow  hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all'
-            >
-              <div className='flex flex-wrap hover:shadow-xl'>
-                <div className='rounded-lg h-[50px] w-auto overflow flex justify-center items-center'>
-                   <Image
-                    className='object-cover rounded-xl max-w-full h-auto justify-center items-center'
-                    src={item.image}
-                    width={45}
-                    height={45}
-                    alt={item.title}
-                  />
-                 <div>
-                  <h3 className='ml-4 text-color-primary text-md mb-2'>Nama Anggota</h3>
-                  <p className='ml-4 text-color-yellow text-xs mb-1'>Phone Number</p>
-                  <p className='ml-4 text-color-yellow text-xs'>Area Wilayah</p>
+          {photos.map((p, index) => {
+            return (
+              <SwiperSlide key={index}>
+               <div className="p-5">
+                  <div>
+                    <div className="h-[200px] cursor-pointer overflow-hidden">
+                      <img
+                        className="scale-1 hover:scale-[1.1] duration-300"
+                        src={p.img}
+                        alt=""
+                      />
+                    </div>
+                    <p className="text-center items-center">{p.price}</p>
+                  </div>
                 </div>
-                </div>
-              </div> 
-           </SwiperSlide>
-           </motion.div> 
-        )
-          )
-           } 
-      </Swiper> 
-   </div>
-  )
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
+  );
 }
 
-export default SwiperJS
+export default CoverFlow

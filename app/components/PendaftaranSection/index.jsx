@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 const PendaftaranSection =() =>{
@@ -14,17 +15,51 @@ const PendaftaranSection =() =>{
       </div>
       <div className="grid md:grid-cols-2 gap-10 py-4 px-4 md:gap-20 justify-center items-center">
         <div className="mt-4 md:mt-0 flex flex-col h-full">
-          <p className="text-base lg:text-lg">
+          <p className="text-justify lg:text-lg">
             Mengenai informasi untuk pendaftaran anggota kowril, bisa menghubungi kontak dibawah ini :
           </p>
           <div className='flex flex-col'>
-            <h3 className="flex items-center justify-center mt-5 mb-5 p-5 bg-color-indigo text-color-primary rounded-b-2xl">Dika Pratama</h3>
-              <h3>Ketua Korwil Tasikmalaya</h3>
-              <h3 className='indigo'>+62 819-3050-9090</h3>
-              <h3 className="flex items-center justify-center mt-5 mb-5 p-5 bg-color-indigo text-color-primary rounded-b-2xl">Yogi A Yogaswara</h3>
-              <h3>Kaderisasi Korwil Tasikmalaya</h3>
-              <h3 className='indigo'>+62 853-5399-1777</h3>
-          </div>
+            <div class="p-4 mt-5 md:w-full">
+              <div class="flex items-center mx-auto sm:flex-row flex-col">
+              <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+                </div>
+                <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                  <h2 class="text-white text-lg title-font font-medium mb-3">DIKA PRATAMA</h2>
+                  <p class="leading-relaxed text-base">Ketua Korwil Tasikmalaya</p>
+                  <Link href="https://api.whatsapp.com/send?phone=+6281930509090" class="mt-3 text-indigo-400 hover:text-color-primary inline-flex items-center">
+                  <svg class="w-6 h-6 mr-5 text-indigo-400 dark:text-color-indigo" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 19 18">
+                    <path d="M18 13.446a3.02 3.02 0 0 0-.946-1.985l-1.4-1.4a3.054 3.054 0 0 0-4.218 0l-.7.7a.983.983 0 0 1-1.39 0l-2.1-2.1a.983.983 0 0 1 0-1.389l.7-.7a2.98 2.98 0 0 0 0-4.217l-1.4-1.4a2.824 2.824 0 0 0-4.218 0c-3.619 3.619-3 8.229 1.752 12.979C6.785 16.639 9.45 18 11.912 18a7.175 7.175 0 0 0 5.139-2.325A2.9 2.9 0 0 0 18 13.446Z"/>
+                  </svg>
+                    +62 819-3050-9090
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 mt-5 md:w-full">
+              <div class="flex items-center mx-auto sm:flex-row flex-col">
+                <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                  </div>
+                  <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                    <h2 class="text-white text-lg title-font font-medium mb-3">YOGI A YOGASWARA</h2>
+                    <p class="leading-relaxed text-base">Kaderisasi Korwil Tasikmalaya</p>
+                    <Link href="https://api.whatsapp.com/send?phone=+6285353991777" class="mt-3 text-indigo-400 hover:text-color-primary inline-flex items-center">
+                      <svg class="w-6 h-6 mr-5 text-indigo-400 dark:text-color-indigo" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 19 18">
+                        <path d="M18 13.446a3.02 3.02 0 0 0-.946-1.985l-1.4-1.4a3.054 3.054 0 0 0-4.218 0l-.7.7a.983.983 0 0 1-1.39 0l-2.1-2.1a.983.983 0 0 1 0-1.389l.7-.7a2.98 2.98 0 0 0 0-4.217l-1.4-1.4a2.824 2.824 0 0 0-4.218 0c-3.619 3.619-3 8.229 1.752 12.979C6.785 16.639 9.45 18 11.912 18a7.175 7.175 0 0 0 5.139-2.325A2.9 2.9 0 0 0 18 13.446Z"/>
+                      </svg>
+                    +62 853-5399-1777
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>   
         <div className="flex rounded-3xl justify-center items-center w-full h-auto border-none shadow hover:shadow-2xl hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
           <Image
