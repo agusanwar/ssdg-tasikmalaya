@@ -14,14 +14,14 @@ const PendaftaranSection =() =>{
       </div>
       <div className="grid md:grid-cols-2 gap-10 py-4 px-4 md:gap-20 justify-center items-center">
         <div className="mt-4 md:mt-0 flex flex-col h-full">
-          <p className="text-base mb-5 lg:text-lg">
+          <p className="text-base lg:text-lg">
             Mengenai informasi untuk pendaftaran anggota kowril, bisa menghubungi kontak dibawah ini :
           </p>
           <div className='flex flex-col'>
-            <h3 className="flex items-center justify-center mt-10 mb-5 p-5 bg-color-indigo text-color-primary rounded-b-2xl">Dika Pratama</h3>
+            <h3 className="flex items-center justify-center mt-5 mb-5 p-5 bg-color-indigo text-color-primary rounded-b-2xl">Dika Pratama</h3>
               <h3>Ketua Korwil Tasikmalaya</h3>
               <h3 className='indigo'>+62 819-3050-9090</h3>
-              <h3 className="flex items-center justify-center mt-10 mb-5 p-5 bg-color-indigo text-color-primary rounded-b-2xl">Yogi A Yogaswara</h3>
+              <h3 className="flex items-center justify-center mt-5 mb-5 p-5 bg-color-indigo text-color-primary rounded-b-2xl">Yogi A Yogaswara</h3>
               <h3>Kaderisasi Korwil Tasikmalaya</h3>
               <h3 className='indigo'>+62 853-5399-1777</h3>
           </div>
@@ -47,7 +47,7 @@ const PendaftaranSection =() =>{
             />
           </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">  
-          <h2 className="text-4xl mb-5 font-extrabold ">
+          <h2 className="text-3xl sm:text-4xl  mb-5 font-extrabold ">
             <span className="text-transparent mt-10 bg-clip-text bg-gradient-to-r from-red-600 to-yellow-500">
               Syiar Dalam Gelap
             </span>
@@ -57,19 +57,18 @@ const PendaftaranSection =() =>{
               Visi 
             </span>
           </h1>
-          <p className="text-base lg:text-md mb-2">
+          <p className="text-justify lg:text-md mb-2">
             Membentuk kepribadian muslim yang kuat dalam Iman, Ilmu dan Amal.
-            
           </p>
           <h1 className="text-2xl sm:text-md mt-4 mb-2 font-extrabold ">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-600">
               Misi 
             </span>
           </h1>
-          <p className="text-base mb-2 lg:text-md">
+          <p className="text-justify mb-2 lg:text-md">
             1. Memberikan pemahaman tentang makhluk ghoib dan eksistensinya.
           </p>
-          <p className="text-base lg:text-lg">
+          <p className="text-justify lg:text-lg">
             2. Memberikan pelajaran tentang kebenaran dan kebaikan & berdasarkan tuntunan Rasulullah SAW.
           </p>
         </div>

@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import HeroSection  from './components/HeroSection'
 import PendaftaranSection  from './components/PendaftaranSection'
+import NewWakaf from './components/NewWakaf'
 import KegiatanSection from './components/KegiatanSection'
 import HerbalSection from './components/HerbalSection'
 import OurTeamSection from './components/OurTeamSection'
@@ -14,6 +15,7 @@ const Page = () => {
         {/* <div className="container mt-20 mx-auto px-12 py-4"> */}
           <HeroSection />
           <PendaftaranSection/>
+          <NewWakaf />
           <KegiatanSection />
           <HerbalSection />
           <OurTeamSection />
