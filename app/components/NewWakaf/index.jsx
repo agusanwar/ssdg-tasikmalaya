@@ -37,7 +37,7 @@ const NewWakaf = () => {
             <h3 className="flex items-center justify-center mt-2 mb-5 p-5 bg-color-yellow text-color-primary rounded-t-2xl">Gagan Garnawansyah</h3>
               <h3>Fundraising Korwil Tasikmalaya</h3>
               <h3 className='indigo'>+62 819-3050-9090</h3>
-              <h3 className="flex items-center justify-center mt-5 mb-5 p-5 bg-color-yellow text-color-primary rounded-b-2xl">Sutrsino</h3>
+              <h3 className="flex items-center justify-center mt-5 mb-5 p-5 bg-color-yellow text-color-primary rounded-b-2xl">Sutrisno</h3>
               <h3>Bendahara Korwil Tasikmalaya</h3>
               <h3 className='indigo'>+62 853-5399-1777</h3>
           </div>
