@@ -71,7 +71,7 @@ const DatakasAnggota = () => {
         </div>
       </div>
 
-      <p className="text-white mt-5 mb-4 text-2xl font-bold">
+      <p className="text-white mt-5 mb-4 text-center text-2xl font-bold">
           Data Kas Periode 2023
       </p>
      <div className="mb-20">

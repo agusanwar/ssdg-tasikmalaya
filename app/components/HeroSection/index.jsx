@@ -19,8 +19,8 @@ const HeroSection = ()=> {
       <div className='bg-black/30 absolute top-0 left-0 w-full h-screen' />
         <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
           <div className='md:left-[10%] max-w-[1100px] m-auto absolute p-4'>      
-            <h1 className="text-white mb-4 text-xl sm:text-4xl font-extrabold ">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-400">
+            <h1 className="text-white mb-4 text-xl sm:text-4xl ml-5 font-extrabold ">
+              <span className="text-transparent bg-clip-text text-center bg-gradient-to-r from-orange-400 to-yellow-400">
                   SSDG  KORWIL TASIKMALAYA{""}
               </span>
               <br></br>
@@ -36,9 +36,6 @@ const HeroSection = ()=> {
                 repeat={Infinity}
               />
             </h1>
-            <p className="text-[#ADB7BE] text-base sm:text-md text-md lg:text-sm mb-6"> 
-              Jaga Terus...! Iman, Ilmu & Amal kita
-            </p>  
             <div className="flex flex-row ml-2">
               {/* <motion.div
                 whileHover={{ scale: 1.1 }}
@@ -55,7 +52,7 @@ const HeroSection = ()=> {
                 whileTap={{  scale: 0.5 }}
                 >
                 <Link
-                  href="/new"
+                  href="/new-informasi"
                   className="bg-transparent transition-all px-4 ml-5 mt-5 py-3 text-center text-white hover:bg-color-yellow font-semibold hover:text-white inline-block w-full sm:w-fit border hover:border-transparent border-color-primary rounded-full">
                     New Information
                 </Link>
