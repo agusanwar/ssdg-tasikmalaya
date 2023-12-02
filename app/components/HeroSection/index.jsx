@@ -12,19 +12,21 @@ const HeroSection = ()=> {
         className='top-0 left-0 w-full h-screen object-cover'
         src="/images/img_hero.webp" 
         alt='hero image'
-        width={1000}
-        height={1000}
+        width={500}
+        height={500}
           
       />
       <div className='bg-black/30 absolute top-0 left-0 w-full h-screen' />
-        <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
-          <div className='md:left-[10%] max-w-[1100px] m-auto absolute p-4'>      
-            <h1 className="text-white mb-4 text-xl sm:text-4xl ml-5 font-extrabold ">
-              <span className="text-transparent bg-clip-text text-center bg-gradient-to-r from-orange-400 to-yellow-400">
-                  SSDG  KORWIL TASIKMALAYA{""}
+        <div className='absolute top-0 w-full h-full flex flex-col items-center justify-center text-white'>
+          <div className='md:left-[10%] max-w-6xl m-auto absolute gap-x-4'>      
+            <h1 className="text-white text-xl md:text-4xl font-bold">
+              <span className="text-transparent bg-clip-text text-center bg-gradient-to-r from-orange-400 to-yellow-400 leading-none">
+                 SSDG KORWIL TASIKMALAYA
+                  {""}
               </span>
               <br></br>
               <TypeAnimation
+              className="gap-y-10"
                 sequence={[
                 "Syiar Dalam Gelap",
                 500,
@@ -36,30 +38,20 @@ const HeroSection = ()=> {
                 repeat={Infinity}
               />
             </h1>
-            <div className="flex flex-row ml-2">
-              {/* <motion.div
-                whileHover={{ scale: 1.1 }}
-                whileTap={{  scale: 0.5 }}
-                >
-                <Link
-                  href="/datakasanggota"
-                  className="bg-transparent transition-all px-4 mt-5 py-3 text-center text-white hover:bg-color-indigo font-semibold hover:text-white inline-block w-full sm:w-fit border hover:border-transparent border-color-primary rounded-full">
-                    Data Iuran KAS
-                </Link>
-              </motion.div> */}
+            <div className="gap-y-10">
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{  scale: 0.5 }}
                 >
                 <Link
                   href="/new-informasi"
-                  className="bg-transparent transition-all px-4 ml-5 mt-5 py-3 text-center text-white hover:bg-color-yellow font-semibold hover:text-white inline-block w-full sm:w-fit border hover:border-transparent border-color-primary rounded-full">
+                  className="bg-transparent transition-all px-4 mt-10 py-3 text-center text-white hover:bg-color-yellow font-semibold hover:text-white inline-block w-full md:w-fit border hover:border-transparent border-color-primary rounded-full">
                     New Information
                 </Link>
               </motion.div>
             </div>   
-            <div className="flex flex-row mt-10">
-              <div className="flex ml-4">
+            <div className="flex flex-row items-center md:items-start md:justify-start justify-center mt-10">
+              <div className="flex">
                 <div className="group relative">
                   <motion.div
                     whileHover={{ scale: 1.1 }}
