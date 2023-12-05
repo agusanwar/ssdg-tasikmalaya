@@ -22,12 +22,11 @@ import 'swiper/css/grid';
 
 const OurTeamSection = () => {
   return (
-    <section className="lg:py-5 px-5 py-5 mb-10 " id="ourteam">
-      <div className="container px-5 py-24 mx-auto">
+    <section className="footer py-12 px-5 mx-auto" id="ourteam">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="text-white text-2xl sm:text-4xl text-center font-extrabold ">
+          <h1 className="text-white text-2xl md:text-4xl text-center font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-200">
-              Out Team Sahabat Syiar Dalam Gelap Korwil Tasikmalaya
+              Out Team Korwil Tasikmalaya
             </span>
           </h1>
         </div>
@@ -37,7 +36,6 @@ const OurTeamSection = () => {
           </span>
         </h2>
         {/* <CoverFlow /> */}
-      </div>
     </section>
   );
 }

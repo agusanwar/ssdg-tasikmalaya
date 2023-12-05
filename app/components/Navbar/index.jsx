@@ -34,7 +34,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
+    <nav className="w-full fixed mx-auto top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-5 pb-12">
       <div className="flex justify-between items-center w-full h-full px-10 xl:px-16">
        <div className="flex items-center w-full h-full px-10 2xl:px-16"> 
           <Image 

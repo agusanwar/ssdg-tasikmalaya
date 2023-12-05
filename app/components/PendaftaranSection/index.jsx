@@ -81,8 +81,8 @@ const PendaftaranSection =() =>{
               alt="image our team"
             />
           </div>
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">  
-          <h2 className="text-3xl sm:text-4xl  mb-5 font-extrabold ">
+        <div className="mt-10 md:mt-0 text-left flex flex-col h-full">  
+          <h2 className="text-3xl sm:text-4xl px-10 font-extrabold ">
             <span className="text-transparent gap-y-5 bg-clip-text bg-gradient-to-r from-red-600 to-yellow-500">
               Syiar Dalam Gelap
             </span>

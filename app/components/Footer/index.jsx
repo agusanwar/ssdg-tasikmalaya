@@ -9,12 +9,12 @@ const Footer = () => {
   return (   
     <footer className="rounded-lg shadow bg-neutral-900">
       <div className="w-full max-w-screen-xl item mx-auto p-4 md:py-8">
-        <div className="sm:flex md:items-center sm:justify-between">
+        <div className="flex flex-col md:flex-row fitems-center md:items-center md:justify-between">
           <motion.div
             whileHover={{ scale: 1.1 }}
             whileTap={{  scale: 0.9 }}
           >
-          <Link href="#" className="flex items-center mb-4 sm:mb-0">
+          <Link href="#" className="flex items-center gap-x-2 gap-y-2 justify-center">
             <Image 
               className="shadow rounded max-w-full h-auto align-middle border-none" 
               src="/images/logo.webp" 
@@ -29,8 +29,8 @@ const Footer = () => {
             </h2>
           </Link>
           </motion.div>
-          <div className="flex flex-wrap justify-center items-center mb-5">
-            <div className="flex mt-15 items-center justify-between"> 
+          <div className="flex flex-wrap justify-center items-center gap-y-4">
+            <div className="flex items-center justify-between"> 
               <div className="group relative">
                 <motion.div
                   whileHover={{ scale: 1.1 }}
