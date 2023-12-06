@@ -5,16 +5,16 @@ import Link from 'next/link'
 
 const PendaftaranSection =() =>{
   return (
-    <section className="text-white py-12"  id="pendaftaran">
-      <div className="items-center justify-center py-8 px-4 lg:gap-y-8 lg:px-16">
+    <section className="text-white py-12 px-5"  id="pendaftaran">
+      <div className="items-center justify-center py-4 md:py-12 lg:gap-y-8 lg:px-16">
         <h1 className="text-white text-2xl md:text-4xl text-center font-extrabold">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-200">
             Pendaftaran Anggota Korwil Baru
           </span>
         </h1>
       </div>
-      <div className="grid md:grid-cols-2 md:px-8 px-4 gap-x-8 md:gap-x-8 justify-center items-center">
-        <div className="mt-4 md:mt-0 flex flex-col h-full">
+      <div className="grid md:grid-cols-2 md:p-4 justify-center items-center">
+        <div className="flex flex-col h-full">
           <p className="text-justify text-white leading-loose lg:text-lg">
             Mengenai informasi untuk pendaftaran anggota kowril, bisa menghubungi kontak dibawah ini :
           </p>
@@ -71,7 +71,7 @@ const PendaftaranSection =() =>{
           />
         </div>
      </div>
-     <div className="md:grid md:grid-cols-2 md:px-8 px-4 gap-x-8 md:gap-x-8 justify-center items-center ">
+     <div className="md:grid md:grid-cols-2 md:p-4 justify-center items-center ">
           <div className="flex w-full h-auto justify-center rounded-3xl shadow hover:shadow-2xl hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
             <Image
               className="px-4 py-4 items-center justify-center rounded-r-lg transition-all"
@@ -82,7 +82,7 @@ const PendaftaranSection =() =>{
             />
           </div>
         <div className="mt-10 md:mt-0 text-left flex flex-col h-full">  
-          <h2 className="text-3xl sm:text-4xl px-10 font-extrabold ">
+          <h2 className="text-3xl sm:text-4xl font-extrabold ">
             <span className="text-transparent gap-y-5 bg-clip-text bg-gradient-to-r from-red-600 to-yellow-500">
               Syiar Dalam Gelap
             </span>

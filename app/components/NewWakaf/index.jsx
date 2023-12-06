@@ -4,18 +4,18 @@ import Link from 'next/link'
 
 const NewWakaf = () => {
   return (
-    <section className="lg:py-5 px-5 py-5"  id="kegiatan">
-      <div className="items-center justify-center py-8 px-4 xl:gap-8 sm:py-16 xl:px-8">
-        <h1 className="text-white text-center text-3xl sm:text-4xl font-extrabold ">
+    <section className="wakat py-12 px-5"  id="kegiatan">
+      <div className="items-center justify-center xl:gap-8 sm:py-12">
+        <h1 className="text-white text-center text-3xl md:text-4xl font-extrabold ">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-200">
             Wakaf Tanah Pondok Pesantren ATHOILLAH
           </span>
         </h1>
       </div>
-      <div className="md:grid md:grid-cols-2 justify-center items-center gap-x-8 md:gap-x-8 ">
+      <div className="md:grid md:grid-cols-2 md:p-4 justify-center items-center gap-x-8 md:gap-x-8 ">
         <div className="flex w-full h-auto justify-center rounded-3xl shadow hover:shadow-2xl hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
           <Image
-            className="px-4 py-4 items-center justify-center rounded-r-lg transition-all"
+            className="px-4 py-8 items-center justify-center rounded-r-lg transition-all"
             src="/images/wakaf/img_wakaf.webp" 
             width={700} 
             height={700} 
@@ -23,8 +23,8 @@ const NewWakaf = () => {
           />
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">  
-          <h2 className="text-xl md:text-2xl text-center md:text-start mb-5 font-extrabold ">
-            <span className="text-transparent mt-5 bg-clip-text bg-gradient-to-r from-red-600 to-yellow-500">
+          <h2 className="text-xl md:text-2xl text-center md:text-start py-4 font-extrabold ">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-yellow-500">
               SSDG Korwil Tasikmalaya
             </span>
           </h2>
@@ -35,7 +35,7 @@ const NewWakaf = () => {
             Untuk informasi lebih lanjut bisa menghubungi:
           </p>
           <div className='flex flex-col'>
-           <div className="p-4 mt-5 md:w-full">
+           <div className="py-4 md:w-full">
             <div className="flex items-center mx-auto sm:flex-row flex-col">
               <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-color-yellow bg-gray-800 flex-shrink-0">
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
