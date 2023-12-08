@@ -13,8 +13,7 @@ const HeroSection = ()=> {
         src="/images/hero/thumbnail.webp" 
         alt='hero image'
         width={500}
-        height={500}
-          
+        height={500}     
       />
       <div className='absolute top-0 w-full h-full flex flex-col items-center justify-center text-white'>
         <div className='md:left-[10%] py-12 max-w-6xl m-auto absolute gap-x-4'>      
