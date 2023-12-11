@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const NewWakaf = () => {
   return (
-    <section className="wakat py-12 px-5"  id="kegiatan">
+    <section className="wakat  py-8 md:py-12 px-5"  id="kegiatan">
       <div className="items-center justify-center xl:gap-8 sm:py-12">
         <h1 className="text-white text-center text-3xl md:text-4xl font-extrabold ">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-200">
@@ -64,7 +64,7 @@ const NewWakaf = () => {
               <Image
                 className="shadow rounded max-w-full h-auto align-middle border-none"
                 src="/images/wakaf/wakaf_10k.webp" 
-                width={250} 
+                width={300} 
                 height={250} 
                 alt="image voucher"
               />
@@ -73,7 +73,7 @@ const NewWakaf = () => {
               <Image
                 className="shadow rounded max-w-full h-auto align-middle border-none"
                 src="/images/wakaf/wakaf_20k.webp" 
-                width={250} 
+                width={300} 
                 height={250} 
                 alt="image voucher"
               />
@@ -82,7 +82,7 @@ const NewWakaf = () => {
               <Image
                 className="shadow rounded max-w-full h-auto align-middle border-none"
                 src="/images/wakaf/wakaf_50k.webp" 
-                width={250} 
+                width={300} 
                 height={250} 
                 alt="image voucher"
               />
@@ -91,7 +91,7 @@ const NewWakaf = () => {
               <Image
                 className="shadow rounded max-w-full h-auto align-middle border-none"
                 src="/images/wakaf/wakaf_100k.webp" 
-                width={250} 
+                width={300} 
                 height={250} 
                 alt="image voucher"
               />
@@ -100,7 +100,7 @@ const NewWakaf = () => {
               <Image
                 className="shadow rounded max-w-full h-auto align-middle border-none"
                 src="/images/wakaf/wakaf_350k.webp" 
-                width={250} 
+                width={300} 
                 height={250} 
                 alt="image voucher"
               />

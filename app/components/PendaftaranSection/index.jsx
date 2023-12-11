@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const PendaftaranSection =() =>{
   return (
-    <section className="text-white py-12 px-5"  id="pendaftaran">
+    <section className="text-white py-8 md:py-12 px-5"  id="pendaftaran">
       <div className="items-center justify-center py-4 md:py-12 lg:gap-y-8 lg:px-16">
         <h1 className="text-white text-2xl md:text-4xl text-center font-extrabold">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-200">
