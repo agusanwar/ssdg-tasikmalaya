@@ -27,7 +27,7 @@ const NewInformation = () => {
              </span>
           </h2>
           <p className="text-justify leading-loose lg:text-md ">
-            Harlah SSDG Korwil Tasikmalaya ke-3 akan diselenggarakan di Agra Hot Springs Wisata Curug Batu Badak Hanoman, Tasikmalaya, Jawa Barat
+            HARLAH SSDG Korwil Tasikmalaya ke-3 akan diselenggarakan Insya Allah pada hari Sabtu, 17 Februari 2024 yang berlokasi di Agra Hot Springs Wisata Curug Batu Badak Hanoman, Tasikmalaya, Jawa Barat
           </p>
           <p className="text-justify mt-5 lg:text-md">
             Untuk informasi lebih lanjut bisa menghubungi:
