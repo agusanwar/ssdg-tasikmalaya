@@ -28,7 +28,7 @@ const NewInformation = () => {
               INFORMATION
              </span>
           </h2>
-          <p className="text-justify leading-loose lg:text-md ">
+          <p className="text-justify lg:text-md ">
            Kegiatan SDG di Korwil Tasikmalaya pada kesempatan ini, melakukan kegiatan liputan di Situ Lengkong Panjalu Ciamis.
           </p>
           <p className="text-justify mt-5 lg:text-md">
@@ -84,8 +84,11 @@ const NewInformation = () => {
               </span>
             </h2>
           <div className="mt-4 md:mt-2 text-left flex flex-col h-full">  
-            <p className="text-justify leading-loose lg:text-md">
-              Untuk Link Registrasi LIPUTAN PANJALU SITU LENGKONG CIAMIS, Silahkan isi DATA diri dengan lengkap 
+            <p className="text-justify lg:text-md">
+              Untuk Link Registrasi LIPUTAN PANJALU SITU LENGKONG CIAMIS, Silahkan isi DATA diri dengan lengkap.
+            </p>
+            <p className="text-justify mt-4 lg:text-md">
+            link: <Link href={"https://ssdg-tasikmalaya.vercel.app/new-informasi"} className="mr-12 text-blue-600  underline hover:text-amber-500 transition-all">G-form Registrasi Liputan</Link>
             </p>
           </div>
           <h2 className="text-xl md:text-2xl text-center md:text-start mt-4 py-4 font-extrabold ">
@@ -93,7 +96,7 @@ const NewInformation = () => {
                 INCLUDE
               </span>
             </h2>
-            <p className="text-justify mb-4 md:text-lg text-md leading-loose">
+            <p className="text-justify mb-6 md:text-lg text-md">
               Adapun Include Yang akan didapatkan oleh peserta pada Liputan Situ Lengkong Panjalu Ciamis: 
             </p>
           <div className="grid justify-center items-center md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-y-4  gap-x-4">
