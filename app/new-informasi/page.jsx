@@ -87,15 +87,15 @@ const NewInformation = () => {
             <p className="text-justify leading-loose lg:text-md">
               Untuk Link Registrasi LIPUTAN PANJALU SITU LENGKONG CIAMIS, Silahkan isi DATA diri dengan lengkap 
             </p>
-            <p className="text-justify py-10 md:text-lg text-md leading-loose">
-              Adapun Include Yang akan didapatkan oleh peserta HARLAH SSDG Korwil Tasikmalaya ke-3: 
-            </p>
           </div>
-          <h2 className="text-xl md:text-2xl text-center md:text-start py-4 font-extrabold ">
+          <h2 className="text-xl md:text-2xl text-center md:text-start mt-4 py-4 font-extrabold ">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-yellow-500">
                 INCLUDE
               </span>
             </h2>
+            <p className="text-justify mb-4 md:text-lg text-md leading-loose">
+              Adapun Include Yang akan didapatkan oleh peserta HARLAH SSDG Korwil Tasikmalaya ke-3: 
+            </p>
           <div className="grid justify-center items-center md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-y-4  gap-x-4">
           
             <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
