@@ -94,7 +94,7 @@ const NewInformation = () => {
               </span>
             </h2>
             <p className="text-justify mb-4 md:text-lg text-md leading-loose">
-              Adapun Include Yang akan didapatkan oleh peserta HARLAH SSDG Korwil Tasikmalaya ke-3: 
+              Adapun Include Yang akan didapatkan oleh peserta pada Liputan Situ Lengkong Panjalu Ciamis: 
             </p>
           <div className="grid justify-center items-center md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-y-4  gap-x-4">
           
