@@ -88,7 +88,7 @@ const NewInformation = () => {
               Untuk Link Registrasi LIPUTAN PANJALU SITU LENGKONG CIAMIS, Silahkan isi DATA diri dengan lengkap.
             </p>
             <p className="text-justify mt-4 lg:text-md">
-            link: <Link href={"https://ssdg-tasikmalaya.vercel.app/new-informasi"} className="mr-12 text-blue-600  underline hover:text-amber-500 transition-all">G-form Registrasi Liputan</Link>
+            link: <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSc0HG-Oa4rNKMkqoxngFj0KXI1VjCwJIFvLZ15Kfo86Xl4oEg/viewform?usp=sf_link"} className="mr-12 text-blue-600  underline hover:text-amber-500 transition-all">G-form Registrasi Liputan</Link>
             </p>
           </div>
           <h2 className="text-xl md:text-2xl text-center md:text-start mt-4 py-4 font-extrabold ">
