@@ -4,7 +4,6 @@ import Link from 'next/link'
 
 const NewInformation = () => {
 
-  
   return (
     <div className="infomation w-full items-center justify-center py-10 px-10">  
       <h1 className="text-white text-xl md:text-4xl text-center font-extrabold ">
@@ -100,7 +99,6 @@ const NewInformation = () => {
               Adapun Include Yang akan didapatkan oleh peserta pada Liputan Situ Lengkong Panjalu Ciamis: 
             </p>
           <div className="grid justify-center items-center md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-y-4  gap-x-4">
-          
             <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
               <p className="text-right mb-5 md:text-lg text-md leading-loose">
                 1. Kartu Access Peserta
@@ -124,11 +122,42 @@ const NewInformation = () => {
                 height={250} 
                 alt="image voucher"
               />
-            </div>
-            
+            </div>   
           </div>
         </div>
-        
+      </div>
+      <div className='py-12'>
+      <h1 className="text-white text-xl md:text-3xl text-start font-bold mb-4">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-200">
+          Informasi dan Himbauan
+          </span>
+        </h1>
+        <div className="grid justify-center items-center md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-y-4  gap-x-4">
+            <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
+              <p className="text-right mb-5 md:text-lg text-md leading-loose">
+                Tata Cara Registrasi Liputan
+              </p>
+              <Image
+                className="shadow rounded max-w-full h-auto align-middle border-none"
+                src="/images/new_information/flow-registrasi.webp" 
+                width={300} 
+                height={250} 
+                alt="image voucher"
+              />
+            </div>
+            <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
+              <p className="text-right mb-5 md:text-lg text-md leading-loose">
+                Tata Tertib untuk Peserta Liputan
+              </p>
+              <Image
+                className="shadow rounded max-w-full h-auto align-middle border-none"
+                src="/images/new_information/tata-tertib.webp" 
+                width={300} 
+                height={250} 
+                alt="image voucher"
+              />
+            </div>
+          </div>
       </div>
        
     </div>
