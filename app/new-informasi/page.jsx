@@ -98,8 +98,8 @@ const NewInformation = () => {
             <p className="text-justify mb-6 md:text-lg text-md">
               Adapun Include Yang akan didapatkan oleh peserta pada Liputan Situ Lengkong Panjalu Ciamis: 
             </p>
-          <div className="grid justify-center items-center md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-y-4  gap-x-4">
-            <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
+          <div className="grid justify-start items-start md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-y-4  gap-x-4">
+            <div className="flex flex-wrap justify-start items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
               <p className="text-right mb-5 md:text-lg text-md leading-loose">
                 1. Kartu Access Peserta
               </p>
@@ -111,7 +111,7 @@ const NewInformation = () => {
                 alt="image voucher"
               />
             </div>
-             <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
+             <div className="flex flex-wrap items-start bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
                <p className="text-justify mb-5 md:text-lg text-md leading-loose">
                 2. 1 X Coffee Break 
               </p>
@@ -132,31 +132,35 @@ const NewInformation = () => {
           Informasi dan Himbauan
           </span>
         </h1>
-        <div className="grid justify-center items-center md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-y-4  gap-x-4">
-            <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
-              <p className="text-right mb-5 md:text-lg text-md leading-loose">
+        <div className="grid md:grid-cols-2 item-start sm:grid-cols-2 grid-cols-1 gap-4 px-4">
+          <div>
+            <div className="flex flex-wrap justify-center items-start bg-black rounded-2xl py-4 px-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
+              <p className="text-start mb-5 md:text-lg text-md leading-loose">
                 Tata Cara Registrasi Liputan
               </p>
               <Image
                 className="shadow rounded max-w-full h-auto align-middle border-none"
                 src="/images/new_information/flow-registrasi.webp" 
-                width={300} 
-                height={250} 
+                width={650} 
+                height={450} 
                 alt="image voucher"
               />
             </div>
-            <div className="flex flex-wrap justify-center items-center bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
-              <p className="text-right mb-5 md:text-lg text-md leading-loose">
-                Tata Tertib untuk Peserta Liputan
-              </p>
+          </div>
+          <div>
+            <div className="flex flex-wrap justify-center items-start bg-black rounded-2xl p-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
+              <p className="text-start mb-5 md:text-lg text-md leading-loose">
+                  Tata Tertib Peserta Liputan
+                </p>
               <Image
-                className="shadow rounded max-w-full h-auto align-middle border-none"
+                className="shadow justify-center items-start rounded max-w-full h-auto align-middle border-none"
                 src="/images/new_information/tata-tertib.webp" 
-                width={300} 
-                height={250} 
+                width={600} 
+                height={600} 
                 alt="image voucher"
               />
             </div>
+          </div>
           </div>
       </div>
        
