@@ -3,7 +3,8 @@
 import React, { useEffect, useState } from 'react'
 import { db } from '../firebase';
 import {collection, addDoc, getDocs} from 'firebase/firestore';
-const Pendaftaran = () => { 
+
+const Registrasi = () => { 
     // handling user
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -11,7 +12,7 @@ const Pendaftaran = () => {
     const [alamat, setAlamat] = useState("");
 
     // create db
-    const dbref = collection(db, "pendaftaran")
+    const dbref = collection(db, "Registrasi")
     // handling add function
     const add = async ()=>{
         if(name.length === 0 || email.length === 0 || phone.length === 0){
@@ -121,4 +122,4 @@ const Pendaftaran = () => {
     )
 }
 
-export default Pendaftaran;
+export default Registrasi;
