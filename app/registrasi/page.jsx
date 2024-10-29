@@ -18,6 +18,12 @@ const Registrasi = () => {
         if(name.length === 0 || email.length === 0 || phone.length === 0){
           alert("silahkan lengakapi data anda")
         }
+        if(phone == phone){
+          alert("nomor telpon sudah tersedia")
+        }
+        if(email == email){
+          alert("email sudah tersedia")
+        }
         else{
             try {
                 await addDoc(dbref, {Nama:name, Email:email, Phone:phone, Alamat:alamat})
@@ -75,6 +81,7 @@ const Registrasi = () => {
                       value={email}
                       onChange={(e) =>setEmail(e.target.value)}
                       required 
+                      
                       className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                       placeholder="Enter email" 
                     />
