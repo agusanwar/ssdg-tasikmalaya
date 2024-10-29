@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const NewInformation = () => {
-
   return (
     <div className="infomation w-full items-center justify-center py-10 px-10">  
       <h1 className="text-white text-xl md:text-4xl text-center font-extrabold ">
