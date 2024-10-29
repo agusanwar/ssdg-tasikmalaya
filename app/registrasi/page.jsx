@@ -46,7 +46,7 @@ const Registrasi = () => {
                 <div className="relative flex items-center">
                     <input type="text" 
                         value={name}
-                        onChange={(e) =>setName(e.target.value.toString())} 
+                        onChange={(e) =>setName(e.target.value)} 
                         required 
                         className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                          placeholder="Enter nama" 
@@ -58,7 +58,7 @@ const Registrasi = () => {
                 <div className="relative flex items-center">
                     <input type="text" 
                       value={email}
-                      onChange={(e) =>setEmail(e.target.value.toString())}
+                      onChange={(e) =>setEmail(e.target.value)}
                         required 
                         className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                          placeholder="Enter email" 
@@ -70,7 +70,7 @@ const Registrasi = () => {
                 <div className="relative flex items-center">
                     <input type="text" 
                        value={phone}
-                       onChange={(e) =>setPhone(e.target.value.toString())}  
+                       onChange={(e) =>setPhone(e.target.value)}  
                         required 
                         className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                          placeholder="Enter no handphone" 
@@ -82,7 +82,7 @@ const Registrasi = () => {
                 <div className="relative flex items-center">
                     <input type="text" 
                        value={alamat}
-                       onChange={(e) =>setAlamat(e.target.value.toString())}  
+                       onChange={(e) =>setAlamat(e.target.value)}  
                         required 
                         className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                          placeholder="Enter alamat" 
