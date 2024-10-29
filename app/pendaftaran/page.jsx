@@ -1,9 +1,9 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { db } from '../firebase';
-import {collection, addDoc} from 'firebase/firestore';
-const Registrasi = () => { 
+import {collection, addDoc, getDocs} from 'firebase/firestore';
+const Pendaftaran = () => { 
     // handling user
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -11,7 +11,7 @@ const Registrasi = () => {
     const [alamat, setAlamat] = useState("");
 
     // create db
-    const dbref = collection(db, "registrasi")
+    const dbref = collection(db, "pendaftaran")
     // handling add function
     const add = async ()=>{
         if(name.length === 0 || email.length === 0 || phone.length === 0){
@@ -19,7 +19,7 @@ const Registrasi = () => {
         }
         else{
             try {
-                await addDoc(dbref, {name:name, email:email, phone:phone, alamat:alamat})
+                await addDoc(dbref, {Nama:name, Email:email, Phone:phone, Alamat:alamat})
                 alert("Success, Anda berahasil Registrasi")
                 setName("")
                 setEmail("")
@@ -30,6 +30,20 @@ const Registrasi = () => {
             }
         }
     }
+
+    // //fetching data
+    // useEffect(() => {
+    //   fetchData()
+    // }, [])
+
+    // // handling fecthdata
+    // const fetchData = async () => {
+    //   const getData = await getDocs(dbref)
+    //   const snap = getData.docs.map((doc) => ({id:doc.id, ...doc.data}))
+    // }
+
+
+
     return(                
     <div className="bg-gray-50 font-[sans-serif]">
       <div className="min-h-screen flex flex-col items-center justify-center py-4 px-4">
@@ -90,8 +104,9 @@ const Registrasi = () => {
                 </div>
               </div>
 
-              <div className="button !mt-8">
+              <div className="!mt-8">
                 <button
+                  type='button'
                    onClick={add}
                     className="w-full py-3 px-4 text-sm tracking-wide rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none"
                     >
@@ -106,4 +121,4 @@ const Registrasi = () => {
     )
 }
 
-export default Registrasi;
+export default Pendaftaran;
