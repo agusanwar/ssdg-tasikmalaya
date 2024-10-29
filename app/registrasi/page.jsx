@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import { db } from '../firebase';
 import {collection, addDoc, getDocs} from 'firebase/firestore';
+import { validateHeaderValue } from 'http';
 
 const Registrasi = () => { 
     // handling user
@@ -17,12 +18,6 @@ const Registrasi = () => {
     const add = async ()=>{
         if(name.length === 0 || email.length === 0 || phone.length === 0){
           alert("silahkan lengakapi data anda")
-        }
-        if(phone == phone){
-          alert("nomor telpon sudah tersedia")
-        }
-        if(email == email){
-          alert("email sudah tersedia")
         }
         else{
             try {
