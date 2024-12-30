@@ -153,7 +153,7 @@ const NewInformation = () => {
           <div>
               <div className="flex flex-wrap justify-center items-start bg-black rounded-2xl py-4 px-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
                 <p className="text-start mb-5 md:text-lg text-md leading-loose">
-                  Tata Cara Registrasi Liputan
+                  Panitia Liputan
                 </p>
                 <Image
                   className="shadow rounded max-w-full h-auto align-middle border-none"
