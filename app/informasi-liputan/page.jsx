@@ -65,7 +65,7 @@ const NewInformation = () => {
                 </div>
                 <div className="flex-grow md:text-left text-center mt-6 md:mt-0 leading-loose">
                   <h2 className="text-white text-lg title-font font-medium">Kang Iqbal</h2>
-                  <p className="leading-relaxed text-base">Informasi Pendaftaran</p>
+                  <p className="leading-relaxed text-base">Informasi Lebih Lanjut:</p>
                   <Link href="https://api.whatsapp.com/send?phone=+6281323084642" className="mt-3 text-color-yellow hover:text-color-primary inline-flex items-center">
                   <svg className="w-6 h-6 mr-5 text-color-yellow dark:text-color-yellow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 19 18">
                     <path d="M18 13.446a3.02 3.02 0 0 0-.946-1.985l-1.4-1.4a3.054 3.054 0 0 0-4.218 0l-.7.7a.983.983 0 0 1-1.39 0l-2.1-2.1a.983.983 0 0 1 0-1.389l.7-.7a2.98 2.98 0 0 0 0-4.217l-1.4-1.4a2.824 2.824 0 0 0-4.218 0c-3.619 3.619-3 8.229 1.752 12.979C6.785 16.639 9.45 18 11.912 18a7.175 7.175 0 0 0 5.139-2.325A2.9 2.9 0 0 0 18 13.446Z"/>
@@ -151,18 +151,18 @@ const NewInformation = () => {
         </h1>
         <div className="grid md:grid-cols-2 item-start sm:grid-cols-2 grid-cols-1 gap-4 px-4">
           <div>
-              {/* <div className="flex flex-wrap justify-center items-start bg-black rounded-2xl py-4 px-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
+              <div className="flex flex-wrap justify-center items-start bg-black rounded-2xl py-4 px-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
                 <p className="text-start mb-5 md:text-lg text-md leading-loose">
                   Tata Cara Registrasi Liputan
                 </p>
                 <Image
                   className="shadow rounded max-w-full h-auto align-middle border-none"
-                  src="/images/new_information/flow-chart.webp" 
+                  src="/images/new_information/panitia.webp" 
                   width={650} 
                   height={450} 
                   alt="image voucher"
                 />
-              </div> */}
+              </div>
             </div>
           </div>
       </div>
