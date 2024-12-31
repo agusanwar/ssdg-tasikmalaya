@@ -14,7 +14,7 @@ const NewInformation = () => {
         <div className="flex w-full h-auto justify-center rounded-3xl shadow hover:shadow-2xl hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
           <Image
             className="px-4 py-8 items-center justify-center rounded-r-lg transition-all"
-            src="/images/new_information/situ-lengkong.webp" 
+            src="/images/new_information/liputan-situlengkong.webp" 
             width={700} 
             height={700} 
             alt="image wakaf"
