@@ -14,7 +14,7 @@ const NewInformation = () => {
         <div className="flex w-full h-auto justify-center rounded-3xl shadow hover:shadow-2xl hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">
           <Image
             className="px-4 py-8 items-center justify-center rounded-r-lg transition-all"
-            src="/images/new_information/situ-lengkong.webp" 
+            src="/images/new_information/situ-lengkong.png" 
             width={700} 
             height={700} 
             alt="image wakaf"
@@ -94,13 +94,13 @@ const NewInformation = () => {
                 </span>
               </h2>
               <p className="text-justify mb-6 md:text-lg text-md">
-                1. Untuk pendaftaran bisa di koordinasikan dengan korwil masing-masing.
+                1. Untuk Pendaftaran Bisa di Koordinasikan di Ketua Korwil masing-masing.
               </p>
               <p className="text-justify mb-6 md:text-lg text-md">
-                2. Tiket Wisata ke Nusa dan Transportasinya bisa dibeli secara mandiri,
+                2. Tiket Masuk Wisata di Tanggung Masing-masing,
               </p>
               <p className="text-justify mb-6 md:text-lg text-md">
-                3. Tidak menyediakan Penginapan dan Makan.
+                3. Paniti Tidak Menyediakan Penginapan dan Makan.
               </p>
           </div>
         </div>
