@@ -59,6 +59,7 @@ const RegistrasiSituLengkong = () => {
                 setl7("")
                 setl8("")
                 setl8("")
+                setl9("")
                 setl10("")
                 setInfaq("0853 5399 1777")
             } catch (error) {
