@@ -157,7 +157,7 @@ const NewInformation = () => {
                 </p>
                 <Image
                   className="shadow rounded max-w-full h-auto align-middle border-none"
-                  src="/images/new_information/panitia.webp" 
+                  src="/images/new_information/panitia-liputan.webp" 
                   width={650} 
                   height={450} 
                   alt="image voucher"
