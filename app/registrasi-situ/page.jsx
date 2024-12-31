@@ -5,7 +5,7 @@ import { db } from '../firebase';
 import {collection, addDoc, getDocs} from 'firebase/firestore';
 import { validateHeaderValue } from 'http';
 
-const RegistrasiSituLengkong = () => { 
+const RegistrasiSitu = () => { 
     // handling user
     const [title, setTitle] = useState("Liputan Situ Lengkong");
     const [name, setName] = useState("");
@@ -141,4 +141,4 @@ const RegistrasiSituLengkong = () => {
     )
 }
 
-export default RegistrasiSituLengkong;
+export default RegistrasiSitu;
