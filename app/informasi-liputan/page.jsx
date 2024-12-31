@@ -154,7 +154,7 @@ const NewInformation = () => {
               <div className="flex flex-wrap justify-center items-start bg-black rounded-2xl py-4 px-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all">     
                 <Image
                   className="shadow rounded max-w-full h-auto align-middle border-none"
-                  src="/images/new_information/img-panitia.webp" 
+                  src="/images/new_information/panitia.webp" 
                   width={700} 
                   height={450} 
                   alt="image voucher"
