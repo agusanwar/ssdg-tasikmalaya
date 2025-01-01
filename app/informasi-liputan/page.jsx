@@ -119,7 +119,7 @@ const NewInformation = () => {
               </p>
               <Image
                 className="shadow rounded max-w-full h-auto align-middle border-none"
-                src="/images/new_information/flow-chart.webp" 
+                src="/images/new_information/flow.webp" 
                 width={650} 
                 height={450} 
                 alt="image voucher"
