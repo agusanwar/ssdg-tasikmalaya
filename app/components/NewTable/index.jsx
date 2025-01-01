@@ -28,15 +28,13 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-// function createData(name, calories, fat, carbs, protein) {
-//   return { name, calories, fat, carbs, protein };
-// }
-function createData(no, name, anggota) {
-    return {no, name, anggota};
+
+function createData(no, name, anggota, status) {
+    return {no, name, anggota, status};
   }
 
 const rows = [
-    createData('1', 'Iqbal', 'korwil Tasikmalaya'),
+    createData('1', 'Iqbal', 'korwil Tasikmalaya', 'Success'),
     
   ];
 
@@ -47,9 +45,10 @@ const Index = () => {
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
         <TableHead>
           <TableRow>
-            <StyledTableCell align="left" width={60}>No</StyledTableCell>
-            <StyledTableCell component="th"  width={300}>Nama Peserta</StyledTableCell>
-            <StyledTableCell align="left">Anggota Korwil</StyledTableCell>
+            <StyledTableCell align="left" width={20}>No.</StyledTableCell>
+            <StyledTableCell component="th"  width={170}>Nama Peserta</StyledTableCell>
+            <StyledTableCell align="left"  width={300}>Anggota Dari Korwil</StyledTableCell>
+            <StyledTableCell align="left">Status Infaq</StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -60,6 +59,7 @@ const Index = () => {
                 {row.name}
               </StyledTableCell>
               <StyledTableCell align="left">{row.anggota}</StyledTableCell>
+              <StyledTableCell align="left">{row.status}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>

@@ -22,7 +22,7 @@ const DataPesertaSitulengkong = () => {
       <p className="text-white mt-5 mb-4 text-center text-2xl font-bold">
           Data Kas Periode 2023
       </p>
-      <div className="md:mb-20 md:px-10 ">
+      <div className="md:mb-20 md:px-40 ">
         <NewTable />
       </div>
     </div>
