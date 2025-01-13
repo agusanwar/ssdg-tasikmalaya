@@ -19,6 +19,9 @@ const RegistrasiSituLengkong = () => {
     const [l8, setl8] = useState("");
     const [l9, setl9] = useState("");
     const [l10, setl10] = useState("");
+    const [l11, setl11] = useState("");
+    const [l12, setl12] = useState("");
+    const [l13, setl13] = useState("");
     const [infaq, setInfaq] = useState("0853 5399 1777");
 
     // create db
@@ -45,6 +48,9 @@ const RegistrasiSituLengkong = () => {
                   anggota8:l8, 
                   anggota9:l9, 
                   anggota10:l10, 
+                  anggota11:l11, 
+                  anggota12:l12, 
+                  anggota13:l13, 
                   infaq:infaq,
                   })
                 alert("Success, Anda Berhasil Registrasi")
@@ -61,6 +67,9 @@ const RegistrasiSituLengkong = () => {
                 setl8("")
                 setl9("")
                 setl10("")
+                setl11("")
+                setl12("")
+                setl13("")
                 setInfaq("0853 5399 1777")
             } catch (error) {
                 alert(error)
@@ -192,6 +201,33 @@ const RegistrasiSituLengkong = () => {
                   <input type="text" 
                     value={l10}
                     onChange={(e) =>setl10(e.target.value)} 
+                    required 
+                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    placeholder="Input nama dengan lengkap" 
+                  />
+                </div>
+               <div className="relative flex items-center mb-3">
+                  <input type="text" 
+                    value={l11}
+                    onChange={(e) =>setl11(e.target.value)} 
+                    required 
+                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    placeholder="Input nama dengan lengkap" 
+                  />
+                </div>
+               <div className="relative flex items-center mb-3">
+                  <input type="text" 
+                    value={l12}
+                    onChange={(e) =>setl12(e.target.value)} 
+                    required 
+                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    placeholder="Input nama dengan lengkap" 
+                  />
+                </div>
+               <div className="relative flex items-center mb-3">
+                  <input type="text" 
+                    value={l13}
+                    onChange={(e) =>setl13(e.target.value)} 
                     required 
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                     placeholder="Input nama dengan lengkap" 
