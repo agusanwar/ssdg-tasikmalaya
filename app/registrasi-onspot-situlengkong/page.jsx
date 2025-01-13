@@ -22,6 +22,9 @@ const RegistrasiOnspotSituLengkong = () => {
     const [nominal, setNominal] = useState("");
     const [infaq, setInfaq] = useState("0853 5399 1777");
 
+    //handling fetch data
+    const [fetchData, setFetchData] = useState([]);
+
     // create db
     const dbref = collection(db, "onspot_l_lengkong")
     // handling add function
@@ -71,6 +74,18 @@ const RegistrasiOnspotSituLengkong = () => {
         }
     }
 
+    // fetching data from database
+    useEffect(() =>{
+      fetchdata()
+    },[])
+
+    //hendling fetch data function
+    const fetchdata = async() =>
+    {
+      const getData = await getDocs(dbref) 
+      const snap = getData.docs.map((doc) => ({id:doc.id, ...doc.data()}))
+      setFetchData(snap)
+    }
     return(                
     <div className="bg-gray-50 font-[sans-serif]">
       <div className="min-h-screen flex flex-col items-center justify-center py-2 px-2">

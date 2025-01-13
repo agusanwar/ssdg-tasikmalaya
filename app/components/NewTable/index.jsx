@@ -1,4 +1,8 @@
-import * as React from 'react';
+"use client"
+
+import React, { useEffect, useState } from 'react'
+import { db } from '../firebase';
+import {collection, getDocs} from 'firebase/firestore';
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -29,14 +33,34 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 
-function createData(no, name, anggota, status) {
-    return {no, name, anggota, status};
-  }
+// function createData(no, name, anggota, status) {
+//     return {no, name, anggota, status};
+//   }
 
-const rows = [
-    createData('1', 'Iqbal', 'korwil Tasikmalaya', 'Success'),
+// const rows = [
+//     createData('1', 'Iqbal', 'korwil Tasikmalaya', 'Success'),
     
-  ];
+//   ];
+
+ //handling fetch data
+ const [fetchData, setFetchData] = useState([]);
+
+ // create db
+ const dbref = collection(db, "l_lengkong");
+
+ // fetching data from database
+ useEffect(() =>{
+   fetchdata()
+ },[])
+
+ //hendling fetch data function
+ const fetchdata = async() =>
+ {
+   const getData = await getDocs(dbref) 
+   const snap = getData.docs.map((doc) => ({id:doc.id, ...doc.data()}))
+   setFetchData(snap)
+ }
+ 
 
 
 const Index = () => {
@@ -52,14 +76,14 @@ const Index = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
-            <StyledTableRow key={row.no}>
-              <StyledTableCell align="left">{row.no}</StyledTableCell>
+          {fetchData.map((data) => (
+            <StyledTableRow key={data.no}>
+              <StyledTableCell align="left">{data.no}</StyledTableCell>
               <StyledTableCell component="th" scope="row">
-                {row.name}
+                {data.title}
               </StyledTableCell>
-              <StyledTableCell align="left">{row.anggota}</StyledTableCell>
-              <StyledTableCell align="left">{row.status}</StyledTableCell>
+              <StyledTableCell align="left">{data.anggota1}</StyledTableCell>
+              <StyledTableCell align="left">{data.nominal}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>
