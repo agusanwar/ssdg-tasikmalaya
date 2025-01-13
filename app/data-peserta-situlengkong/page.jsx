@@ -51,8 +51,8 @@ const DataPesertaSitulengkong = () => {
                       <h1 className="text-white text-sm md:text-xl text-start font-medium">5. {data.anggota5}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium">6. {data.anggota6}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium">7. {data.anggota7}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">8. {data.anggota7}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">9. {data.anggota8}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">8. {data.anggota8}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">9. {data.anggota9}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium">10. {data.anggota10}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium mt-4">Nominal Infaq: {data.nominal}</h1>
                     </div>
