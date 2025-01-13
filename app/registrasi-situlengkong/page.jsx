@@ -94,6 +94,18 @@ const RegistrasiSituLengkong = () => {
                   </div>
                 </div>
                 <div>
+                  <label className="text-gray-800 font-bold text-sm mb-2 block">Infaq Via DANA a/n Yogi A Yogaswara</label>
+                  <div className="relative flex items-center">
+                    <input type="text" 
+                      value={infaq}
+                      readOnly={true}
+                      onChange={(e) =>setInfaq(e.target.value)}  
+                      required 
+                      className="w-full text-gray-800 font-bold bg-yellow-300 text-xl border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    />
+                  </div>
+                </div>
+                <div>
                 <label className="text-gray-800 text-sm mb-2 block">Asal Korwil*</label>
                 <div className="relative flex items-center">
                     <input type="text" 
@@ -113,7 +125,7 @@ const RegistrasiSituLengkong = () => {
                     onChange={(e) =>setl1(e.target.value)} 
                     required 
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Input nama dengan lengkap" 
+                    placeholder="1. Input nama dengan lengkap" 
                   />
                 </div>
                <div className="relative flex items-center mb-3">
@@ -122,7 +134,7 @@ const RegistrasiSituLengkong = () => {
                     onChange={(e) =>setl2(e.target.value)} 
                     required 
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Input nama dengan lengkap" 
+                    placeholder="2. Input nama dengan lengkap" 
                   />
                 </div>
                <div className="relative flex items-center mb-3">
@@ -131,7 +143,7 @@ const RegistrasiSituLengkong = () => {
                     onChange={(e) =>setl3(e.target.value)} 
                     required 
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Input nama dengan lengkap" 
+                    placeholder="3. Input nama dengan lengkap" 
                   />
                 </div>
                <div className="relative flex items-center mb-3">
@@ -140,7 +152,7 @@ const RegistrasiSituLengkong = () => {
                     onChange={(e) =>setl4(e.target.value)} 
                     required 
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Input nama dengan lengkap" 
+                    placeholder="4. Input nama dengan lengkap" 
                   />
                 </div>
                <div className="relative flex items-center mb-3">
@@ -149,7 +161,7 @@ const RegistrasiSituLengkong = () => {
                     onChange={(e) =>setl5(e.target.value)} 
                     required 
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Input nama dengan lengkap" 
+                    placeholder="5. Input nama dengan lengkap" 
                   />
                 </div>
                <div className="relative flex items-center mb-3">
@@ -158,7 +170,7 @@ const RegistrasiSituLengkong = () => {
                     onChange={(e) =>setl6(e.target.value)} 
                     required 
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Input nama dengan lengkap" 
+                    placeholder="6. Input nama dengan lengkap" 
                   />
                 </div>
                <div className="relative flex items-center mb-3">
@@ -167,7 +179,7 @@ const RegistrasiSituLengkong = () => {
                     onChange={(e) =>setl7(e.target.value)} 
                     required 
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Input nama dengan lengkap" 
+                    placeholder="7. Input nama dengan lengkap" 
                   />
                 </div>
                <div className="relative flex items-center mb-3">
@@ -176,7 +188,7 @@ const RegistrasiSituLengkong = () => {
                     onChange={(e) =>setl8(e.target.value)} 
                     required 
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Input nama dengan lengkap" 
+                    placeholder="8. Input nama dengan lengkap" 
                   />
                 </div>
                <div className="relative flex items-center mb-3">
@@ -185,7 +197,7 @@ const RegistrasiSituLengkong = () => {
                     onChange={(e) =>setl9(e.target.value)} 
                     required 
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Input nama dengan lengkap" 
+                    placeholder="9. Input nama dengan lengkap" 
                   />
                 </div>
                <div className="relative flex items-center mb-3">
@@ -194,24 +206,11 @@ const RegistrasiSituLengkong = () => {
                     onChange={(e) =>setl10(e.target.value)} 
                     required 
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Input nama dengan lengkap" 
+                    placeholder="10. Input nama dengan lengkap" 
                   />
                 </div>
               </div>
-              <div>
-                <label className="text-gray-800 text-sm mb-2 block">Infaq Via DANA a/n Yogi A Yogaswara</label>
-                <div className="relative flex items-center">
-                    <input type="text" 
-                      value={infaq}
-                      readOnly={true}
-                      onChange={(e) =>setInfaq(e.target.value)}  
-                      required 
-                      className="w-full text-gray-800 bg-yellow-300 text-xl border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    />
-                  </div>
-              </div>
-
-              <div className="!mt-8">
+               <div className="!mt-8">
                 <button
                   type='button'
                    onClick={add}
