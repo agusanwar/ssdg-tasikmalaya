@@ -44,7 +44,7 @@ const DataPesertaSitulengkong = () => {
                       <h1 className="text-black text-lg rounded-xl md:text-2xl text-start font-bold md:font-bold mb-4 md:mb-4 bg-orange-400 p-4">Korwil: {data.anggota}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium md:mb-2">List Anggota: </h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota1}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota4}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota2}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota3}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota4}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota5}</h1>
