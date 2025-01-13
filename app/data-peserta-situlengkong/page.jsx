@@ -4,6 +4,7 @@
 import React, { useEffect, useState } from 'react'
 import { db } from '../firebase';
 import {collection, getDocs} from 'firebase/firestore';
+import SortBy from 'sort-by'
 
 
 const DataPesertaSitulengkong = () => {
@@ -23,6 +24,7 @@ const DataPesertaSitulengkong = () => {
   {
     const getData = await getDocs(dbref) 
     const snap = getData.docs.map((doc) => ({id:doc.id, ...doc.data()}))
+    snap.sort(SortBy('anggota','asc'));
     setFetchData(snap)
   }
   
@@ -39,7 +41,6 @@ const DataPesertaSitulengkong = () => {
               {
                 fetchData.map((data, i) => {
                   return(
-                    
                     <div className="items-start bg-black rounded-2xl py-4 px-4 md:px-4 md:py-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all" key={i}>  
                       <h1 className="text-black text-lg rounded-xl md:text-2xl text-start font-bold md:font-bold mb-4 md:mb-4 bg-orange-400 p-4">Korwil: {data.anggota}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium md:mb-2">List Anggota: </h1>
