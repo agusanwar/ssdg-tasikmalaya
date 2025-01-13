@@ -42,7 +42,7 @@ const DataPesertaSitulengkong = () => {
                 fetchData.map((data, i) => {
                   return(
                     <div className="items-start bg-black rounded-2xl py-4 px-4 md:px-4 md:py-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all" key={i}>  
-                      <h1 className="text-black text-lg rounded-xl md:text-2xl text-start font-bold md:font-bold mb-4 md:mb-4 bg-orange-400 p-4">Korwil: {data.anggota}</h1>
+                      <h1 className="text-black text-xl rounded-xl md:text-2xl text-start font-bold md:font-bold mb-4 md:mb-4 bg-orange-400 p-4">{data.anggota}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium md:mb-2">List Anggota: </h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota1}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota2}</h1>
