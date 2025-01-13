@@ -29,7 +29,7 @@ const DataPesertaSitulengkong = () => {
   return(
     <div className="col-span-7 bg-[#121212] px-5 py-5 min-h-screen"> 
       <div className='py-8'>
-        <h1 className="text-white text-xl md:text-3xl text-start font-bold mb-4">
+        <h1 className="text-white text-xl md:text-4xl text-start font-bold mb-6">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-orange-200">
           LIST DATA LIPUTAN SITU LENGKONG
           </span>
@@ -40,20 +40,19 @@ const DataPesertaSitulengkong = () => {
                 fetchData.map((data, i) => {
                   return(
                     
-                    <div className="items-start bg-black rounded-2xl py-4 px-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all"  key={i}>  
-                      <h1 className="text-white text-lg md:text-2xl text-start font-medium md:font-bold mb-2 md:mb-4">Title: {data.title}</h1>
-                      <h1 className="text-white text-lg md:text-2xl text-start font-medium md:font-bold md:mb-2">Korwil: {data.anggota}</h1>
+                    <div className="items-start bg-black rounded-2xl py-4 px-4 md:px-4 md:py-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all" key={i}>  
+                      <h1 className="text-black text-lg rounded-xl md:text-2xl text-start font-bold md:font-bold mb-4 md:mb-4 bg-orange-400 p-4">Korwil: {data.anggota}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium md:mb-2">List Anggota: </h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota1}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota2}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota3}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota4}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota5}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota6}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota7}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota8}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota9}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota10}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota1}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota4}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota3}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota4}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota5}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota6}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota7}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota8}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota9}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota10}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium mt-4"> {data.nominal}</h1>
                     </div>
                     
