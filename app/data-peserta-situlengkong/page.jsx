@@ -56,6 +56,18 @@ const DataPesertaSitulengkong = () => {
                       <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota11}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota12}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota13}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota14}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota15}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota16}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota17}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota18}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota19}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota20}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota21}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota22}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota23}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota24}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium ml-4">  {data.anggota25}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium mt-4"> {data.nominal}</h1>
                     </div>
                     
