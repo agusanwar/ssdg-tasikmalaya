@@ -44,17 +44,17 @@ const DataPesertaSitulengkong = () => {
                       <h1 className="text-white text-lg md:text-2xl text-start font-medium md:font-bold mb-2 md:mb-4">Title: {data.title}</h1>
                       <h1 className="text-white text-lg md:text-2xl text-start font-medium md:font-bold md:mb-2">Korwil: {data.anggota}</h1>
                       <h1 className="text-white text-sm md:text-xl text-start font-medium md:mb-2">List Anggota: </h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">1. {data.anggota1}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">2. {data.anggota2}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">3. {data.anggota3}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">4. {data.anggota4}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">5. {data.anggota5}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">6. {data.anggota6}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">7. {data.anggota7}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">8. {data.anggota8}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">9. {data.anggota9}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium">10. {data.anggota10}</h1>
-                      <h1 className="text-white text-sm md:text-xl text-start font-medium mt-4">{data.nominal}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota1}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota2}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota3}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota4}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota5}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota6}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota7}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota8}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota9}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium">  {data.anggota10}</h1>
+                      <h1 className="text-white text-sm md:text-xl text-start font-medium mt-4"> {data.nominal}</h1>
                     </div>
                     
                   )
