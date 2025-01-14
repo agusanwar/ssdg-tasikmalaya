@@ -1,4 +1,9 @@
-import * as React from 'react';
+"use client"
+
+import React, { useEffect, useState } from 'react';
+import { db } from '../../firebase';
+import {collection, getDocs} from 'firebase/firestore';
+import SortBy from 'sort-by';
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -29,17 +34,27 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 
-function createData(no, name, anggota, status) {
-    return {no, name, anggota, status};
-  }
-
-const rows = [
-    createData('1', 'Iqbal', 'korwil Tasikmalaya', 'Success'),
-    
-  ]; 
-
-
 const Index = () => {
+  
+//handling fetch data
+const [fetchData, setFetchData] = useState([]);
+
+// create db
+const dbref = collection(db, "onspot_l_lengkong");
+
+// fetching data from database
+useEffect(() =>{
+  fetchdata()
+},[])
+
+//hendling fetch data function
+const fetchdata = async() =>
+{
+  const getData = await getDocs(dbref) 
+  const snap = getData.docs.map((doc) => ({id:doc.id, ...doc.data()}))
+  snap.sort(SortBy('korwil','asc'));
+  setFetchData(snap)
+}
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
@@ -52,14 +67,14 @@ const Index = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((data) => (
-            <StyledTableRow key={data.no}>
-              <StyledTableCell align="left">{data.no}</StyledTableCell>
-              <StyledTableCell component="th" scope="row">
-                {data.name}
+          {fetchData.map((data, i) => (
+            <StyledTableRow key={i}>
+              <StyledTableCell align="left" className='number'>{i++}</StyledTableCell>
+              <StyledTableCell component="th" scope="row" className='uppercase'>
+                {data.anggota}
               </StyledTableCell>
-              <StyledTableCell align="left">{data.anggota}</StyledTableCell>
-              <StyledTableCell align="left">{data.status}</StyledTableCell>
+              <StyledTableCell align="left">{data.korwil}</StyledTableCell>
+              <StyledTableCell align="left">{data.nominal}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>

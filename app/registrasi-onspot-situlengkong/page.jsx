@@ -9,16 +9,7 @@ const RegistrasiOnspotSituLengkong = () => {
     // handling user
     const [title, setTitle] = useState("Liputan Situ Lengkong Panjalu Ciamis");
     const [anggota, setAnggota] = useState("");
-    const [l1, setl1] = useState("");
-    const [l2, setl2] = useState("");
-    const [l3, setl3] = useState("");
-    const [l4, setl4] = useState("");
-    const [l5, setl5] = useState("");
-    const [l6, setl6] = useState("");
-    const [l7, setl7] = useState("");
-    const [l8, setl8] = useState("");
-    const [l9, setl9] = useState("");
-    const [l10, setl10] = useState("");
+    const [korwil, setKorwil] = useState("");
     const [nominal, setNominal] = useState("");
     const [infaq, setInfaq] = useState("0853 5399 1777");
 
@@ -29,8 +20,8 @@ const RegistrasiOnspotSituLengkong = () => {
     const dbref = collection(db, "onspot_l_lengkong")
     // handling add function
     const add = async ()=>{
-        if(anggota.length === 0 || 
-            l1.length === 0
+        if(korwil.length === 0 || 
+            anggota.length === 0
           ){
           alert("silahkan lengakapi data anda")
         }
@@ -38,34 +29,15 @@ const RegistrasiOnspotSituLengkong = () => {
             try {
                 await addDoc(dbref, {
                   title:title, 
+                  korwil:korwil,
                   anggota:anggota, 
-                  anggota1:l1, 
-                  anggota2:l2, 
-                  anggota3:l3, 
-                  anggota4:l4, 
-                  anggota5:l5, 
-                  anggota6:l6, 
-                  anggota7:l7, 
-                  anggota8:l8, 
-                  anggota9:l9, 
-                  anggota10:l10, 
                   nominal:nominal,
                   infaq:infaq,
                   })
                 alert("Success, Anda Berhasil Registrasi")
                 setTitle("Liputan Situ Lengkong Panjalu Ciamis")
+                setKorwil("")
                 setAnggota("")
-                setl1("")
-                setl2("")
-                setl3("")
-                setl4("")
-                setl5("")
-                setl6("")
-                setl7("")
-                setl8("")
-                setl8("")
-                setl9("")
-                setl10("")
                 setNominal("")
                 setInfaq("0853 5399 1777")
             } catch (error) {
@@ -138,105 +110,22 @@ const RegistrasiOnspotSituLengkong = () => {
                 <label className="text-gray-800 text-sm mb-2 block">Asal Korwil*</label>
                 <div className="relative flex items-center">
                     <input type="text" 
-                      value={anggota}
-                      onChange={(e) =>setAnggota(e.target.value)}  
+                      value={korwil}
+                      onChange={(e) =>setKorwil(e.target.value)}  
                       required 
                       className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                       placeholder="Input asal Korwil dengan lengkap" 
                     />
                 </div>
-              </div>
-              <div>
-                <label className="text-gray-800 text-sm mb-2 block">List Nama Peserta (min 1 max 10)</label>
-                <div className="relative flex items-center mb-3">
-                  <input type="text" 
-                    value={l1}
-                    onChange={(e) =>setl1(e.target.value)} 
-                    required 
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="1. Input nama dengan lengkap" 
-                  />
-                </div>
-               <div className="relative flex items-center mb-3">
-                  <input type="text" 
-                    value={l2}
-                    onChange={(e) =>setl2(e.target.value)} 
-                    required 
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="2. Input nama dengan lengkap" 
-                  />
-                </div>
-               <div className="relative flex items-center mb-3">
-                  <input type="text" 
-                    value={l3}
-                    onChange={(e) =>setl3(e.target.value)} 
-                    required 
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="3. Input nama dengan lengkap" 
-                  />
-                </div>
-               <div className="relative flex items-center mb-3">
-                  <input type="text" 
-                    value={l4}
-                    onChange={(e) =>setl4(e.target.value)} 
-                    required 
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="4. Input nama dengan lengkap" 
-                  />
-                </div>
-               <div className="relative flex items-center mb-3">
-                  <input type="text" 
-                    value={l5}
-                    onChange={(e) =>setl5(e.target.value)} 
-                    required 
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="5. Input nama dengan lengkap" 
-                  />
-                </div>
-               <div className="relative flex items-center mb-3">
-                  <input type="text" 
-                    value={l6}
-                    onChange={(e) =>setl6(e.target.value)} 
-                    required 
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="6. Input nama dengan lengkap" 
-                  />
-                </div>
-               <div className="relative flex items-center mb-3">
-                  <input type="text" 
-                    value={l7}
-                    onChange={(e) =>setl7(e.target.value)} 
-                    required 
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="7. Input nama dengan lengkap" 
-                  />
-                </div>
-               <div className="relative flex items-center mb-3">
-                  <input type="text" 
-                    value={l8}
-                    onChange={(e) =>setl8(e.target.value)} 
-                    required 
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="8. Input nama dengan lengkap" 
-                  />
-                </div>
-               <div className="relative flex items-center mb-3">
-                  <input type="text" 
-                    value={l9}
-                    onChange={(e) =>setl9(e.target.value)} 
-                    required 
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="9. Input nama dengan lengkap" 
-                  />
-                </div>
-               <div className="relative flex items-center mb-3">
-                  <input type="text" 
-                    value={l10}
-                    onChange={(e) =>setl10(e.target.value)} 
-                    required 
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="10. Input nama dengan lengkap" 
-                  />
+                <label className="text-gray-800 text-sm mt-2 mb-2 block">Nama Peserta</label>
+                <div className="relative flex items-center">
+                    <input type="text" 
+                      value={anggota}
+                      onChange={(e) =>setAnggota(e.target.value)}  
+                      required 
+                      className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                      placeholder="Input nama peserta dengan lengkap" 
+                    />
                 </div>
               </div>
               <div className="!mt-8">
