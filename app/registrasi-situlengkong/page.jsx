@@ -23,9 +23,6 @@ const RegistrasiSituLengkong = () => {
 
     // create db
     const dbref = collection(db, "l_lengkong")
-    const closeDaftar = () => {
-      alert("Mohon Maaf Registrasi Sudah di Tutup, Silahkan Menghubungi Ketua Korwil Masing-Masing")
-    }
     // handling add function
     const add = async ()=>{
         if(anggota.length === 0 || 
@@ -216,7 +213,7 @@ const RegistrasiSituLengkong = () => {
                <div className="!mt-8">
                 <button
                   type='button'
-                   onClick={closeDaftar}
+                   onClick={add}
                     className="w-full py-3 px-4 text-sm tracking-wide rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none"
                     >
                  Daftar
