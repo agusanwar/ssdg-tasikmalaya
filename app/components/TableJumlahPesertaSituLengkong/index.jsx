@@ -1,6 +1,5 @@
 "use client"
 
-
 import * as React from "react";
 import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';
@@ -29,15 +28,16 @@ const columns = [
     createData('2', 'Korwil Bekasi', '1 Anggota','-'),
     createData('3', 'Korwil Bogor Raya', '8 Anggota','-'),
     createData('4', 'Korwil Cianjur', '5 Anggota','-'),
-    createData('5',  'Korwil Garut', '8 Anggota','-'),
-    createData('6', 'Korwil Jakarta Raya', '16 Anggota','-'),
-    createData('7', 'Korwil Ngapak Raya', '1 Anggota','-'),
-    createData('8', 'Korwil Sukabumi', '11 Anggota','-'),
-    createData('9', 'Korwil Sumedang', '9 Anggota','-'),
-    createData('10', 'Korwil Tangerang', '14 Anggota','-'),
-    createData('11',  'Korwil Tasikmalaya', '34 Anggota','-'),
-    createData('12', 'Korwil Rating Banjar', '5 Anggota','-'),
-    createData('13', 'Fans SDG/Belum Masuk Korwil', '7 Anggota','-'),
+    createData('5', 'Korwil Ciayumajakuning', '29 Anggota','-'),
+    createData('6',  'Korwil Garut', '8 Anggota','-'),
+    createData('7', 'Korwil Jakarta Raya', '16 Anggota','-'),
+    createData('8', 'Korwil Ngapak Raya', '1 Anggota','-'),
+    createData('9', 'Korwil Sukabumi', '11 Anggota','-'),
+    createData('10', 'Korwil Sumedang', '9 Anggota','-'),
+    createData('11', 'Korwil Tangerang', '21 Anggota','-'),
+    createData('12',  'Korwil Tasikmalaya', '34 Anggota','-'),
+    createData('13', 'Korwil Rating Banjar', '5 Anggota','-'),
+    createData('14', 'Fans SDG/Belum Masuk Korwil', '10 Anggota','-'),
   ];
 
   
