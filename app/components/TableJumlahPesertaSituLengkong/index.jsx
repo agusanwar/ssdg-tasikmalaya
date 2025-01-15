@@ -35,7 +35,7 @@ const columns = [
     createData('8', 'Korwil Sukabumi', '11 Anggota','-'),
     createData('9', 'Korwil Sumedang', '9 Anggota','-'),
     createData('10', 'Korwil Tangerang', '14 Anggota','-'),
-    createData('11',  'Korwil Tasikmalaya', ' Anggota','-'),
+    createData('11',  'Korwil Tasikmalaya', '34 Anggota','-'),
     createData('12', 'Korwil Rating Banjar', '5 Anggota','-'),
     createData('13', 'Fans SDG/Belum Masuk Korwil', '7 Anggota','-'),
   ];
