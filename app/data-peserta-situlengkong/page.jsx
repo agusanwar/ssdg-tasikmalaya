@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react'
 import { db } from '../firebase';
 import {collection, getDocs} from 'firebase/firestore';
 import SortBy from 'sort-by'
+import TableJumlahPesertaSituLengkong from '../components/TableJumlahPesertaSituLengkong';
 
 
 const DataPesertaSitulengkong = () => {
@@ -76,6 +77,9 @@ const DataPesertaSitulengkong = () => {
                 })
               }
           </div>
+          <div className="mt-10 px-4">
+            <TableJumlahPesertaSituLengkong />
+          </div>    
         </div>
       </div>
     </div>
