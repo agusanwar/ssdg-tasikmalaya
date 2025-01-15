@@ -17,11 +17,11 @@ const columns = [
   { id: 'no', label: 'No' },
   { id: 'korwil', label: 'Asal Korwil', minWidth: 120 },
   { id: 'jumlah', label: 'Jumlah Anggota', minWidth: 60, align: 'start' },
-  { id: 'infaq', label: 'Infaq', minWidth: 50, align: 'center' },
+  { id: 'note', label: 'Note', minWidth: 50, align: 'center' },
   ];
 
-  function createData(no, korwil, jumlah, infaq) {
-    return {no, korwil, jumlah, infaq};
+  function createData(no, korwil, jumlah, note) {
+    return {no, korwil, jumlah, note};
   }
 
   const rows = [
