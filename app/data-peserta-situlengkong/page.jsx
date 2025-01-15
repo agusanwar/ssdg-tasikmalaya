@@ -77,7 +77,7 @@ const DataPesertaSitulengkong = () => {
                 })
               }
           </div>
-          <div className="mt-10 px-4">
+          <div className="mt-10 px-4 mb-20">
             <TableJumlahPesertaSituLengkong />
           </div>    
         </div>
