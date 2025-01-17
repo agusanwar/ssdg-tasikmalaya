@@ -9,10 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@heroicons/react": "^2.0.18",
-    "@mui/material": "^5.14.13",
+    "@mui/material": "^5.16.14",
+    "@mui/x-charts": "^7.23.6",
     "@mui/x-data-grid": "^6.16.1",
     "firebase": "^11.0.1",
     "framer-motion": "^10.16.4",
@@ -21,7 +22,7 @@
     "react-dom": "^18",
     "react-icons": "^4.11.0",
     "react-type-animation": "^3.2.0",
-    "sort-by": "^1.2.0",
+    "sort-by": "^0.0.2",
     "swiper": "^11.0.4"
   },
   "devDependencies": {
