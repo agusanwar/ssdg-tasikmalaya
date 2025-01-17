@@ -78,7 +78,7 @@ const DataPesertaSitulengkong = () => {
               }
           </div>
           <div className="mt-10 mb-10">
-           <div className='px-8 bg-white rounded-2xl md:px-4 md:py-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all'>
+           <div className='bg-white rounded-2xl md:px-4 md:py-4 shadow hover:shadow-2xl shadow-amber-500 hover:shadow-amber-700 cursor-pointer text-color-primary hover:text-color-yellow transition-all'>
            <PieChartDataRegistrasi />
            </div>
           </div>    
