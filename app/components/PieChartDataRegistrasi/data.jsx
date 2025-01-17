@@ -25,7 +25,7 @@ export const dataset = [
   },
   {
   
-    seoul: 1,
+    seoul: 5,
     anggota: 'Depok',
   },
   {
@@ -35,7 +35,7 @@ export const dataset = [
   },
   {
    
-    seoul: 16,
+    seoul: 21,
     anggota: 'Jakarta',
   },
   {
@@ -50,7 +50,7 @@ export const dataset = [
   },
   {
  
-    seoul: 9,
+    seoul: 10,
     anggota: 'Sumedang',
   },
   {
@@ -60,7 +60,7 @@ export const dataset = [
   },
   {
    
-    seoul: 41,
+    seoul: 46,
     anggota: 'Tasimalaya',
   },
   {
