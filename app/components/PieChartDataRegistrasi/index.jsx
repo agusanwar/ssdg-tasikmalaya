@@ -8,8 +8,8 @@ const chartSetting = {
       label: 'Data Anggota',
     },
   ],
-  width: 300,
-  height: 300,
+  width: 350,
+  height: 350,
 };
 
 const xLabels = [
